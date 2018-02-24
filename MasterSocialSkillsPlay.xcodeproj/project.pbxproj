@@ -1,0 +1,1109 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E154868203C20FC00FC79A1 /* PlayMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E154867203C20FC00FC79A1 /* PlayMusic.swift */; };
+		7E15486B203C303900FC79A1 /* MenuAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15486A203C303900FC79A1 /* MenuAudio.mp3 */; };
+		7E1548A5203D6D4100FC79A1 /* MenuAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15489C203D6D4000FC79A1 /* MenuAudio.mp3 */; };
+		7E1548A9203D6D4100FC79A1 /* WellDoneOption1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548A0203D6D4100FC79A1 /* WellDoneOption1.mp3 */; };
+		7E1548AC203D6D4100FC79A1 /* TryAgainOption2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548A3203D6D4100FC79A1 /* TryAgainOption2.mp3 */; };
+		7E1548AE203D700000FC79A1 /* SandpitQuestion6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548AD203D700000FC79A1 /* SandpitQuestion6.mp3 */; };
+		7E1548CD203D714800FC79A1 /* HideSeekAnswer30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548AF203D714200FC79A1 /* HideSeekAnswer30.mp3 */; };
+		7E1548CE203D714800FC79A1 /* HideSeekAnswer13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548B0203D714200FC79A1 /* HideSeekAnswer13.mp3 */; };
+		7E1548CF203D714800FC79A1 /* HideSeekAnswer61.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548B1203D714200FC79A1 /* HideSeekAnswer61.mp3 */; };
+		7E1548D0203D714800FC79A1 /* HideSeekAnswer63.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548B2203D714200FC79A1 /* HideSeekAnswer63.mp3 */; };
+		7E1548D1203D714800FC79A1 /* HideSeekQuestion2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548B3203D714200FC79A1 /* HideSeekQuestion2.mp3 */; };
+		7E1548D2203D714800FC79A1 /* HideSeekQuestion5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548B4203D714300FC79A1 /* HideSeekQuestion5.mp3 */; };
+		7E1548D3203D714800FC79A1 /* HideSeekQuestion3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548B5203D714300FC79A1 /* HideSeekQuestion3.mp3 */; };
+		7E1548D4203D714800FC79A1 /* HideSeekAnswer22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548B6203D714300FC79A1 /* HideSeekAnswer22.mp3 */; };
+		7E1548D5203D714800FC79A1 /* HideSeekAnswer62.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548B7203D714300FC79A1 /* HideSeekAnswer62.mp3 */; };
+		7E1548D6203D714800FC79A1 /* HideSeekAnswer53.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548B8203D714300FC79A1 /* HideSeekAnswer53.mp3 */; };
+		7E1548D7203D714800FC79A1 /* HideSeekAnswer11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548B9203D714300FC79A1 /* HideSeekAnswer11.mp3 */; };
+		7E1548D8203D714800FC79A1 /* HideSeekAnswer23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548BA203D714400FC79A1 /* HideSeekAnswer23.mp3 */; };
+		7E1548D9203D714800FC79A1 /* HideSeekAnswer20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548BB203D714400FC79A1 /* HideSeekAnswer20.mp3 */; };
+		7E1548DA203D714800FC79A1 /* HideSeekAnswer43.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548BC203D714400FC79A1 /* HideSeekAnswer43.mp3 */; };
+		7E1548DB203D714800FC79A1 /* HideSeekAnswer41.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548BD203D714400FC79A1 /* HideSeekAnswer41.mp3 */; };
+		7E1548DC203D714800FC79A1 /* HideSeekAnswer50.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548BE203D714400FC79A1 /* HideSeekAnswer50.mp3 */; };
+		7E1548DD203D714800FC79A1 /* HideSeekQuestion6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548BF203D714500FC79A1 /* HideSeekQuestion6.mp3 */; };
+		7E1548DE203D714800FC79A1 /* HideSeekAnswer32.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548C0203D714500FC79A1 /* HideSeekAnswer32.mp3 */; };
+		7E1548DF203D714800FC79A1 /* HideSeekAnswer51.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548C1203D714500FC79A1 /* HideSeekAnswer51.mp3 */; };
+		7E1548E0203D714800FC79A1 /* HideSeekAnswer12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548C2203D714600FC79A1 /* HideSeekAnswer12.mp3 */; };
+		7E1548E1203D714800FC79A1 /* HideSeekQuestion1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548C3203D714600FC79A1 /* HideSeekQuestion1.mp3 */; };
+		7E1548E2203D714800FC79A1 /* HideSeekAnswer31.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548C4203D714600FC79A1 /* HideSeekAnswer31.mp3 */; };
+		7E1548E3203D714800FC79A1 /* HideSeekAnswer33.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548C5203D714700FC79A1 /* HideSeekAnswer33.mp3 */; };
+		7E1548E4203D714800FC79A1 /* HideSeekAnswer10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548C6203D714700FC79A1 /* HideSeekAnswer10.mp3 */; };
+		7E1548E5203D714800FC79A1 /* HideSeekAnswer42.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548C7203D714700FC79A1 /* HideSeekAnswer42.mp3 */; };
+		7E1548E6203D714800FC79A1 /* HideSeekAnswer52.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548C8203D714700FC79A1 /* HideSeekAnswer52.mp3 */; };
+		7E1548E7203D714800FC79A1 /* HideSeekAnswer40.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548C9203D714700FC79A1 /* HideSeekAnswer40.mp3 */; };
+		7E1548E8203D714800FC79A1 /* HideSeekQuestion4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548CA203D714700FC79A1 /* HideSeekQuestion4.mp3 */; };
+		7E1548E9203D714800FC79A1 /* HideSeekAnswer21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548CB203D714800FC79A1 /* HideSeekAnswer21.mp3 */; };
+		7E1548EA203D714800FC79A1 /* HideSeekAnswer60.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548CC203D714800FC79A1 /* HideSeekAnswer60.mp3 */; };
+		7E154909203D716100FC79A1 /* PaintingQuestion3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548EB203D715B00FC79A1 /* PaintingQuestion3.mp3 */; };
+		7E15490A203D716100FC79A1 /* PaintingAnswer10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548EC203D715B00FC79A1 /* PaintingAnswer10.mp3 */; };
+		7E15490B203D716100FC79A1 /* PaintingAnswer63.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548ED203D715B00FC79A1 /* PaintingAnswer63.mp3 */; };
+		7E15490C203D716100FC79A1 /* PaintingAnswer60.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548EE203D715B00FC79A1 /* PaintingAnswer60.mp3 */; };
+		7E15490D203D716100FC79A1 /* PaintingAnswer33.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548EF203D715C00FC79A1 /* PaintingAnswer33.mp3 */; };
+		7E15490E203D716100FC79A1 /* PaintingAnswer30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548F0203D715C00FC79A1 /* PaintingAnswer30.mp3 */; };
+		7E15490F203D716100FC79A1 /* PaintingAnswer20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548F1203D715C00FC79A1 /* PaintingAnswer20.mp3 */; };
+		7E154910203D716100FC79A1 /* PaintingAnswer52.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548F2203D715C00FC79A1 /* PaintingAnswer52.mp3 */; };
+		7E154911203D716100FC79A1 /* PaintingQuestion2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548F3203D715C00FC79A1 /* PaintingQuestion2.mp3 */; };
+		7E154912203D716100FC79A1 /* PaintingAnswer13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548F4203D715C00FC79A1 /* PaintingAnswer13.mp3 */; };
+		7E154913203D716100FC79A1 /* PaintingAnswer62.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548F5203D715C00FC79A1 /* PaintingAnswer62.mp3 */; };
+		7E154914203D716100FC79A1 /* PaintingQuestion4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548F6203D715D00FC79A1 /* PaintingQuestion4.mp3 */; };
+		7E154915203D716100FC79A1 /* PaintingAnswer40.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548F7203D715D00FC79A1 /* PaintingAnswer40.mp3 */; };
+		7E154916203D716100FC79A1 /* PaintingQuestion5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548F8203D715D00FC79A1 /* PaintingQuestion5.mp3 */; };
+		7E154917203D716100FC79A1 /* PaintingAnswer51.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548F9203D715D00FC79A1 /* PaintingAnswer51.mp3 */; };
+		7E154918203D716100FC79A1 /* PaintingQuestion6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548FA203D715D00FC79A1 /* PaintingQuestion6.mp3 */; };
+		7E154919203D716100FC79A1 /* PaintingAnswer42.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548FB203D715D00FC79A1 /* PaintingAnswer42.mp3 */; };
+		7E15491A203D716100FC79A1 /* PaintingAnswer50.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548FC203D715E00FC79A1 /* PaintingAnswer50.mp3 */; };
+		7E15491B203D716100FC79A1 /* PaintingAnswer43.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548FD203D715E00FC79A1 /* PaintingAnswer43.mp3 */; };
+		7E15491C203D716100FC79A1 /* PaintingAnswer53.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548FE203D715E00FC79A1 /* PaintingAnswer53.mp3 */; };
+		7E15491D203D716100FC79A1 /* PaintingAnswer41.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1548FF203D715E00FC79A1 /* PaintingAnswer41.mp3 */; };
+		7E15491E203D716100FC79A1 /* PaintingAnswer12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154900203D715F00FC79A1 /* PaintingAnswer12.mp3 */; };
+		7E15491F203D716100FC79A1 /* PaintingAnswer23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154901203D715F00FC79A1 /* PaintingAnswer23.mp3 */; };
+		7E154920203D716100FC79A1 /* PaintingAnswer61.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154902203D715F00FC79A1 /* PaintingAnswer61.mp3 */; };
+		7E154921203D716100FC79A1 /* PaintingQuestion1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154903203D715F00FC79A1 /* PaintingQuestion1.mp3 */; };
+		7E154922203D716100FC79A1 /* PaintingAnswer32.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154904203D716000FC79A1 /* PaintingAnswer32.mp3 */; };
+		7E154923203D716100FC79A1 /* PaintingAnswer21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154905203D716000FC79A1 /* PaintingAnswer21.mp3 */; };
+		7E154924203D716100FC79A1 /* PaintingAnswer11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154906203D716000FC79A1 /* PaintingAnswer11.mp3 */; };
+		7E154925203D716100FC79A1 /* PaintingAnswer22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154907203D716000FC79A1 /* PaintingAnswer22.mp3 */; };
+		7E154926203D716100FC79A1 /* PaintingAnswer31.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154908203D716000FC79A1 /* PaintingAnswer31.mp3 */; };
+		7E154945203D717700FC79A1 /* PlayDohAnswer42.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154927203D717100FC79A1 /* PlayDohAnswer42.mp3 */; };
+		7E154946203D717700FC79A1 /* PlayDohAnswer62.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154928203D717200FC79A1 /* PlayDohAnswer62.mp3 */; };
+		7E154947203D717700FC79A1 /* PlayDohAnswer10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154929203D717200FC79A1 /* PlayDohAnswer10.mp3 */; };
+		7E154948203D717700FC79A1 /* PlayDohAnswer53.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15492A203D717200FC79A1 /* PlayDohAnswer53.mp3 */; };
+		7E154949203D717700FC79A1 /* PlayDohAnswer51.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15492B203D717200FC79A1 /* PlayDohAnswer51.mp3 */; };
+		7E15494A203D717700FC79A1 /* PlayDohAnswer63.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15492C203D717200FC79A1 /* PlayDohAnswer63.mp3 */; };
+		7E15494B203D717700FC79A1 /* PlayDohAnswer20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15492D203D717200FC79A1 /* PlayDohAnswer20.mp3 */; };
+		7E15494C203D717700FC79A1 /* PlayDohQuestion4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15492E203D717300FC79A1 /* PlayDohQuestion4.mp3 */; };
+		7E15494D203D717700FC79A1 /* PlayDohAnswer32.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15492F203D717300FC79A1 /* PlayDohAnswer32.mp3 */; };
+		7E15494E203D717700FC79A1 /* PlayDohAnswer11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154930203D717300FC79A1 /* PlayDohAnswer11.mp3 */; };
+		7E15494F203D717700FC79A1 /* PlayDohAnswer41.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154931203D717300FC79A1 /* PlayDohAnswer41.mp3 */; };
+		7E154950203D717700FC79A1 /* PlayDohAnswer31.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154932203D717300FC79A1 /* PlayDohAnswer31.mp3 */; };
+		7E154951203D717700FC79A1 /* PlayDohAnswer52.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154933203D717400FC79A1 /* PlayDohAnswer52.mp3 */; };
+		7E154952203D717700FC79A1 /* PlayDohAnswer12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154934203D717400FC79A1 /* PlayDohAnswer12.mp3 */; };
+		7E154953203D717700FC79A1 /* PlayDohAnswer23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154935203D717400FC79A1 /* PlayDohAnswer23.mp3 */; };
+		7E154954203D717700FC79A1 /* PlayDohAnswer22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154936203D717400FC79A1 /* PlayDohAnswer22.mp3 */; };
+		7E154955203D717700FC79A1 /* PlayDohAnswer21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154937203D717400FC79A1 /* PlayDohAnswer21.mp3 */; };
+		7E154956203D717700FC79A1 /* PlayDohAnswer43.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154938203D717400FC79A1 /* PlayDohAnswer43.mp3 */; };
+		7E154957203D717700FC79A1 /* PlayDohAnswer60.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154939203D717500FC79A1 /* PlayDohAnswer60.mp3 */; };
+		7E154958203D717700FC79A1 /* PlayDohAnswer61.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15493A203D717500FC79A1 /* PlayDohAnswer61.mp3 */; };
+		7E154959203D717700FC79A1 /* PlayDohQuestion3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15493B203D717500FC79A1 /* PlayDohQuestion3.mp3 */; };
+		7E15495A203D717700FC79A1 /* PlayDohQuestion6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15493C203D717500FC79A1 /* PlayDohQuestion6.mp3 */; };
+		7E15495B203D717700FC79A1 /* PlayDohAnswer30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15493D203D717500FC79A1 /* PlayDohAnswer30.mp3 */; };
+		7E15495C203D717700FC79A1 /* PlayDohQuestion5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15493E203D717500FC79A1 /* PlayDohQuestion5.mp3 */; };
+		7E15495D203D717700FC79A1 /* PlayDohAnswer33.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15493F203D717600FC79A1 /* PlayDohAnswer33.mp3 */; };
+		7E15495E203D717700FC79A1 /* PlayDohQuestion1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154940203D717600FC79A1 /* PlayDohQuestion1.mp3 */; };
+		7E15495F203D717700FC79A1 /* PlayDohAnswer13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154941203D717600FC79A1 /* PlayDohAnswer13.mp3 */; };
+		7E154960203D717700FC79A1 /* PlayDohAnswer50.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154942203D717600FC79A1 /* PlayDohAnswer50.mp3 */; };
+		7E154961203D717700FC79A1 /* PlayDohAnswer40.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154943203D717600FC79A1 /* PlayDohAnswer40.mp3 */; };
+		7E154962203D717700FC79A1 /* PlayDohQuestion2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154944203D717600FC79A1 /* PlayDohQuestion2.mp3 */; };
+		7E154981203D719400FC79A1 /* PlaygroundAnswer53.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154963203D718E00FC79A1 /* PlaygroundAnswer53.mp3 */; };
+		7E154982203D719400FC79A1 /* PlaygroundAnswer62.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154964203D718E00FC79A1 /* PlaygroundAnswer62.mp3 */; };
+		7E154983203D719400FC79A1 /* PlaygroundAnswer50.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154965203D718E00FC79A1 /* PlaygroundAnswer50.mp3 */; };
+		7E154984203D719400FC79A1 /* PlaygroundQuestion3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154966203D718E00FC79A1 /* PlaygroundQuestion3.mp3 */; };
+		7E154985203D719400FC79A1 /* PlaygroundQuestion6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154967203D718E00FC79A1 /* PlaygroundQuestion6.mp3 */; };
+		7E154986203D719400FC79A1 /* PlaygroundQuestion4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154968203D718F00FC79A1 /* PlaygroundQuestion4.mp3 */; };
+		7E154987203D719400FC79A1 /* PlaygroundAnswer30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154969203D718F00FC79A1 /* PlaygroundAnswer30.mp3 */; };
+		7E154988203D719400FC79A1 /* PlaygroundAnswer22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15496A203D718F00FC79A1 /* PlaygroundAnswer22.mp3 */; };
+		7E154989203D719400FC79A1 /* PlaygroundAnswer12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15496B203D718F00FC79A1 /* PlaygroundAnswer12.mp3 */; };
+		7E15498A203D719400FC79A1 /* PlaygroundQuestion2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15496C203D719000FC79A1 /* PlaygroundQuestion2.mp3 */; };
+		7E15498B203D719400FC79A1 /* PlaygroundAnswer31.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15496D203D719000FC79A1 /* PlaygroundAnswer31.mp3 */; };
+		7E15498C203D719400FC79A1 /* PlaygroundAnswer11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15496E203D719000FC79A1 /* PlaygroundAnswer11.mp3 */; };
+		7E15498D203D719400FC79A1 /* PlaygroundAnswer20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15496F203D719000FC79A1 /* PlaygroundAnswer20.mp3 */; };
+		7E15498E203D719400FC79A1 /* PlaygroundAnswer61.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154970203D719100FC79A1 /* PlaygroundAnswer61.mp3 */; };
+		7E15498F203D719400FC79A1 /* PlaygroundAnswer43.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154971203D719100FC79A1 /* PlaygroundAnswer43.mp3 */; };
+		7E154990203D719400FC79A1 /* PlaygroundAnswer13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154972203D719100FC79A1 /* PlaygroundAnswer13.mp3 */; };
+		7E154991203D719400FC79A1 /* PlaygroundAnswer21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154973203D719100FC79A1 /* PlaygroundAnswer21.mp3 */; };
+		7E154992203D719400FC79A1 /* PlaygroundAnswer33.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154974203D719100FC79A1 /* PlaygroundAnswer33.mp3 */; };
+		7E154993203D719400FC79A1 /* PlaygroundAnswer60.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154975203D719100FC79A1 /* PlaygroundAnswer60.mp3 */; };
+		7E154994203D719400FC79A1 /* PlaygroundQuestion1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154976203D719200FC79A1 /* PlaygroundQuestion1.mp3 */; };
+		7E154995203D719400FC79A1 /* PlaygroundAnswer41.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154977203D719200FC79A1 /* PlaygroundAnswer41.mp3 */; };
+		7E154996203D719400FC79A1 /* PlaygroundAnswer32.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154978203D719200FC79A1 /* PlaygroundAnswer32.mp3 */; };
+		7E154997203D719400FC79A1 /* PlaygroundAnswer42.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154979203D719200FC79A1 /* PlaygroundAnswer42.mp3 */; };
+		7E154998203D719400FC79A1 /* PlaygroundAnswer40.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15497A203D719200FC79A1 /* PlaygroundAnswer40.mp3 */; };
+		7E154999203D719400FC79A1 /* PlaygroundAnswer52.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15497B203D719300FC79A1 /* PlaygroundAnswer52.mp3 */; };
+		7E15499A203D719400FC79A1 /* PlaygroundAnswer51.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15497C203D719300FC79A1 /* PlaygroundAnswer51.mp3 */; };
+		7E15499B203D719400FC79A1 /* PlaygroundQuestion5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15497D203D719300FC79A1 /* PlaygroundQuestion5.mp3 */; };
+		7E15499C203D719400FC79A1 /* PlaygroundAnswer10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15497E203D719300FC79A1 /* PlaygroundAnswer10.mp3 */; };
+		7E15499D203D719400FC79A1 /* PlaygroundAnswer23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15497F203D719300FC79A1 /* PlaygroundAnswer23.mp3 */; };
+		7E15499E203D719400FC79A1 /* PlaygroundAnswer63.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E154980203D719300FC79A1 /* PlaygroundAnswer63.mp3 */; };
+		7E1549BD203D71AA00FC79A1 /* RidingBikesAnswer41.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E15499F203D71A300FC79A1 /* RidingBikesAnswer41.mp3 */; };
+		7E1549BE203D71AA00FC79A1 /* RidingBikesAnswer13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549A0203D71A300FC79A1 /* RidingBikesAnswer13.mp3 */; };
+		7E1549BF203D71AA00FC79A1 /* RidingBikesAnswer23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549A1203D71A400FC79A1 /* RidingBikesAnswer23.mp3 */; };
+		7E1549C0203D71AA00FC79A1 /* RidingBikesAnswer52.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549A2203D71A400FC79A1 /* RidingBikesAnswer52.mp3 */; };
+		7E1549C1203D71AA00FC79A1 /* RidingBikesAnswer43.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549A3203D71A400FC79A1 /* RidingBikesAnswer43.mp3 */; };
+		7E1549C2203D71AA00FC79A1 /* RidingBikesAnswer10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549A4203D71A400FC79A1 /* RidingBikesAnswer10.mp3 */; };
+		7E1549C3203D71AA00FC79A1 /* RidingBikesQuestion6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549A5203D71A400FC79A1 /* RidingBikesQuestion6.mp3 */; };
+		7E1549C4203D71AA00FC79A1 /* RidingBikesAnswer40.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549A6203D71A500FC79A1 /* RidingBikesAnswer40.mp3 */; };
+		7E1549C5203D71AA00FC79A1 /* RidingBikesAnswer32.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549A7203D71A500FC79A1 /* RidingBikesAnswer32.mp3 */; };
+		7E1549C6203D71AA00FC79A1 /* RidingBikesAnswer21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549A8203D71A500FC79A1 /* RidingBikesAnswer21.mp3 */; };
+		7E1549C7203D71AA00FC79A1 /* RidingBikesAnswer33.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549A9203D71A500FC79A1 /* RidingBikesAnswer33.mp3 */; };
+		7E1549C8203D71AA00FC79A1 /* RidingBikesAnswer42.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549AA203D71A500FC79A1 /* RidingBikesAnswer42.mp3 */; };
+		7E1549C9203D71AA00FC79A1 /* RidingBikesQuestion3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549AB203D71A600FC79A1 /* RidingBikesQuestion3.mp3 */; };
+		7E1549CA203D71AA00FC79A1 /* RidingBikesQuestion4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549AC203D71A600FC79A1 /* RidingBikesQuestion4.mp3 */; };
+		7E1549CB203D71AA00FC79A1 /* RidingBikesQuestion5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549AD203D71A600FC79A1 /* RidingBikesQuestion5.mp3 */; };
+		7E1549CC203D71AA00FC79A1 /* RidingBikesAnswer20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549AE203D71A600FC79A1 /* RidingBikesAnswer20.mp3 */; };
+		7E1549CD203D71AA00FC79A1 /* RidingBikesQuestion1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549AF203D71A700FC79A1 /* RidingBikesQuestion1.mp3 */; };
+		7E1549CE203D71AA00FC79A1 /* RidingBikesQuestion2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549B0203D71A700FC79A1 /* RidingBikesQuestion2.mp3 */; };
+		7E1549CF203D71AA00FC79A1 /* RidingBikesAnswer30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549B1203D71A700FC79A1 /* RidingBikesAnswer30.mp3 */; };
+		7E1549D0203D71AA00FC79A1 /* RidingBikesAnswer51.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549B2203D71A700FC79A1 /* RidingBikesAnswer51.mp3 */; };
+		7E1549D1203D71AA00FC79A1 /* RidingBikesAnswer61.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549B3203D71A800FC79A1 /* RidingBikesAnswer61.mp3 */; };
+		7E1549D2203D71AA00FC79A1 /* RidingBikesAnswer12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549B4203D71A800FC79A1 /* RidingBikesAnswer12.mp3 */; };
+		7E1549D3203D71AA00FC79A1 /* RidingBikesAnswer22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549B5203D71A800FC79A1 /* RidingBikesAnswer22.mp3 */; };
+		7E1549D4203D71AA00FC79A1 /* RidingBikesAnswer62.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549B6203D71A800FC79A1 /* RidingBikesAnswer62.mp3 */; };
+		7E1549D5203D71AA00FC79A1 /* RidingBikesAnswer60.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549B7203D71A900FC79A1 /* RidingBikesAnswer60.mp3 */; };
+		7E1549D6203D71AA00FC79A1 /* RidingBikesAnswer63.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549B8203D71A900FC79A1 /* RidingBikesAnswer63.mp3 */; };
+		7E1549D7203D71AA00FC79A1 /* RidingBikesAnswer11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549B9203D71A900FC79A1 /* RidingBikesAnswer11.mp3 */; };
+		7E1549D8203D71AA00FC79A1 /* RidingBikesAnswer50.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549BA203D71A900FC79A1 /* RidingBikesAnswer50.mp3 */; };
+		7E1549D9203D71AA00FC79A1 /* RidingBikesAnswer53.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549BB203D71A900FC79A1 /* RidingBikesAnswer53.mp3 */; };
+		7E1549DA203D71AA00FC79A1 /* RidingBikesAnswer31.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549BC203D71AA00FC79A1 /* RidingBikesAnswer31.mp3 */; };
+		7E1549F9203D71BE00FC79A1 /* SandpitAnswer13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549DB203D71B800FC79A1 /* SandpitAnswer13.mp3 */; };
+		7E1549FA203D71BE00FC79A1 /* SandpitAnswer22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549DC203D71B800FC79A1 /* SandpitAnswer22.mp3 */; };
+		7E1549FB203D71BE00FC79A1 /* SandpitAnswer60.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549DD203D71B800FC79A1 /* SandpitAnswer60.mp3 */; };
+		7E1549FC203D71BE00FC79A1 /* SandpitQuestion3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549DE203D71B800FC79A1 /* SandpitQuestion3.mp3 */; };
+		7E1549FD203D71BE00FC79A1 /* SandpitAnswer20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549DF203D71B900FC79A1 /* SandpitAnswer20.mp3 */; };
+		7E1549FE203D71BE00FC79A1 /* SandpitQuestion5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549E0203D71B900FC79A1 /* SandpitQuestion5.mp3 */; };
+		7E1549FF203D71BE00FC79A1 /* SandpitAnswer52.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549E1203D71B900FC79A1 /* SandpitAnswer52.mp3 */; };
+		7E154A00203D71BE00FC79A1 /* SandpitQuestion1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549E2203D71B900FC79A1 /* SandpitQuestion1.mp3 */; };
+		7E154A01203D71BE00FC79A1 /* SandpitAnswer41.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549E3203D71B900FC79A1 /* SandpitAnswer41.mp3 */; };
+		7E154A02203D71BE00FC79A1 /* SandpitAnswer30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549E4203D71BA00FC79A1 /* SandpitAnswer30.mp3 */; };
+		7E154A03203D71BE00FC79A1 /* SandpitAnswer53.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549E5203D71BA00FC79A1 /* SandpitAnswer53.mp3 */; };
+		7E154A04203D71BE00FC79A1 /* SandpitAnswer40.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549E6203D71BA00FC79A1 /* SandpitAnswer40.mp3 */; };
+		7E154A05203D71BE00FC79A1 /* SandpitAnswer61.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549E7203D71BA00FC79A1 /* SandpitAnswer61.mp3 */; };
+		7E154A06203D71BE00FC79A1 /* SandpitAnswer50.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549E8203D71BA00FC79A1 /* SandpitAnswer50.mp3 */; };
+		7E154A07203D71BE00FC79A1 /* SandpitQuestion4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549E9203D71BB00FC79A1 /* SandpitQuestion4.mp3 */; };
+		7E154A08203D71BE00FC79A1 /* SandpitAnswer43.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549EA203D71BB00FC79A1 /* SandpitAnswer43.mp3 */; };
+		7E154A09203D71BE00FC79A1 /* SandpitAnswer62.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549EB203D71BB00FC79A1 /* SandpitAnswer62.mp3 */; };
+		7E154A0A203D71BE00FC79A1 /* SandpitAnswer12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549EC203D71BB00FC79A1 /* SandpitAnswer12.mp3 */; };
+		7E154A0B203D71BE00FC79A1 /* SandpitQuestion6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549ED203D71BC00FC79A1 /* SandpitQuestion6.mp3 */; };
+		7E154A0C203D71BE00FC79A1 /* SandpitAnswer21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549EE203D71BC00FC79A1 /* SandpitAnswer21.mp3 */; };
+		7E154A0D203D71BE00FC79A1 /* SandpitQuestion2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549EF203D71BC00FC79A1 /* SandpitQuestion2.mp3 */; };
+		7E154A0E203D71BE00FC79A1 /* SandpitAnswer23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549F0203D71BC00FC79A1 /* SandpitAnswer23.mp3 */; };
+		7E154A0F203D71BE00FC79A1 /* SandpitAnswer33.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549F1203D71BC00FC79A1 /* SandpitAnswer33.mp3 */; };
+		7E154A10203D71BE00FC79A1 /* SandpitAnswer42.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549F2203D71BC00FC79A1 /* SandpitAnswer42.mp3 */; };
+		7E154A11203D71BE00FC79A1 /* SandpitAnswer10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549F3203D71BD00FC79A1 /* SandpitAnswer10.mp3 */; };
+		7E154A12203D71BE00FC79A1 /* SandpitAnswer31.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549F4203D71BD00FC79A1 /* SandpitAnswer31.mp3 */; };
+		7E154A13203D71BE00FC79A1 /* SandpitAnswer63.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549F5203D71BD00FC79A1 /* SandpitAnswer63.mp3 */; };
+		7E154A14203D71BE00FC79A1 /* SandpitAnswer11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549F6203D71BD00FC79A1 /* SandpitAnswer11.mp3 */; };
+		7E154A15203D71BE00FC79A1 /* SandpitAnswer32.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549F7203D71BD00FC79A1 /* SandpitAnswer32.mp3 */; };
+		7E154A16203D71BE00FC79A1 /* SandpitAnswer51.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E1549F8203D71BE00FC79A1 /* SandpitAnswer51.mp3 */; };
+		7E337815203AC1CE00BA32A2 /* ArrayStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E337814203AC1CE00BA32A2 /* ArrayStructure.swift */; };
+		7E337817203AC4DD00BA32A2 /* DataInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E337816203AC4DD00BA32A2 /* DataInput.swift */; };
+		7EAFCEE920384EEF00001528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFCEE820384EEF00001528 /* AppDelegate.swift */; };
+		7EAFCEEB20384EEF00001528 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFCEEA20384EEF00001528 /* ViewController.swift */; };
+		7EAFCEEE20384EEF00001528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAFCEEC20384EEF00001528 /* Main.storyboard */; };
+		7EAFCEF020384EEF00001528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EAFCEEF20384EEF00001528 /* Assets.xcassets */; };
+		7EAFCEF320384EEF00001528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAFCEF120384EEF00001528 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E154867203C20FC00FC79A1 /* PlayMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMusic.swift; sourceTree = "<group>"; };
+		7E15486A203C303900FC79A1 /* MenuAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MenuAudio.mp3; sourceTree = "<group>"; };
+		7E15489C203D6D4000FC79A1 /* MenuAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MenuAudio.mp3; sourceTree = "<group>"; };
+		7E1548A0203D6D4100FC79A1 /* WellDoneOption1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WellDoneOption1.mp3; sourceTree = "<group>"; };
+		7E1548A3203D6D4100FC79A1 /* TryAgainOption2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TryAgainOption2.mp3; sourceTree = "<group>"; };
+		7E1548AD203D700000FC79A1 /* SandpitQuestion6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitQuestion6.mp3; sourceTree = "<group>"; };
+		7E1548AF203D714200FC79A1 /* HideSeekAnswer30.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer30.mp3; sourceTree = "<group>"; };
+		7E1548B0203D714200FC79A1 /* HideSeekAnswer13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer13.mp3; sourceTree = "<group>"; };
+		7E1548B1203D714200FC79A1 /* HideSeekAnswer61.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer61.mp3; sourceTree = "<group>"; };
+		7E1548B2203D714200FC79A1 /* HideSeekAnswer63.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer63.mp3; sourceTree = "<group>"; };
+		7E1548B3203D714200FC79A1 /* HideSeekQuestion2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekQuestion2.mp3; sourceTree = "<group>"; };
+		7E1548B4203D714300FC79A1 /* HideSeekQuestion5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekQuestion5.mp3; sourceTree = "<group>"; };
+		7E1548B5203D714300FC79A1 /* HideSeekQuestion3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekQuestion3.mp3; sourceTree = "<group>"; };
+		7E1548B6203D714300FC79A1 /* HideSeekAnswer22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer22.mp3; sourceTree = "<group>"; };
+		7E1548B7203D714300FC79A1 /* HideSeekAnswer62.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer62.mp3; sourceTree = "<group>"; };
+		7E1548B8203D714300FC79A1 /* HideSeekAnswer53.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer53.mp3; sourceTree = "<group>"; };
+		7E1548B9203D714300FC79A1 /* HideSeekAnswer11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer11.mp3; sourceTree = "<group>"; };
+		7E1548BA203D714400FC79A1 /* HideSeekAnswer23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer23.mp3; sourceTree = "<group>"; };
+		7E1548BB203D714400FC79A1 /* HideSeekAnswer20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer20.mp3; sourceTree = "<group>"; };
+		7E1548BC203D714400FC79A1 /* HideSeekAnswer43.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer43.mp3; sourceTree = "<group>"; };
+		7E1548BD203D714400FC79A1 /* HideSeekAnswer41.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer41.mp3; sourceTree = "<group>"; };
+		7E1548BE203D714400FC79A1 /* HideSeekAnswer50.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer50.mp3; sourceTree = "<group>"; };
+		7E1548BF203D714500FC79A1 /* HideSeekQuestion6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekQuestion6.mp3; sourceTree = "<group>"; };
+		7E1548C0203D714500FC79A1 /* HideSeekAnswer32.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer32.mp3; sourceTree = "<group>"; };
+		7E1548C1203D714500FC79A1 /* HideSeekAnswer51.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer51.mp3; sourceTree = "<group>"; };
+		7E1548C2203D714600FC79A1 /* HideSeekAnswer12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer12.mp3; sourceTree = "<group>"; };
+		7E1548C3203D714600FC79A1 /* HideSeekQuestion1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekQuestion1.mp3; sourceTree = "<group>"; };
+		7E1548C4203D714600FC79A1 /* HideSeekAnswer31.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer31.mp3; sourceTree = "<group>"; };
+		7E1548C5203D714700FC79A1 /* HideSeekAnswer33.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer33.mp3; sourceTree = "<group>"; };
+		7E1548C6203D714700FC79A1 /* HideSeekAnswer10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer10.mp3; sourceTree = "<group>"; };
+		7E1548C7203D714700FC79A1 /* HideSeekAnswer42.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer42.mp3; sourceTree = "<group>"; };
+		7E1548C8203D714700FC79A1 /* HideSeekAnswer52.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer52.mp3; sourceTree = "<group>"; };
+		7E1548C9203D714700FC79A1 /* HideSeekAnswer40.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer40.mp3; sourceTree = "<group>"; };
+		7E1548CA203D714700FC79A1 /* HideSeekQuestion4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekQuestion4.mp3; sourceTree = "<group>"; };
+		7E1548CB203D714800FC79A1 /* HideSeekAnswer21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer21.mp3; sourceTree = "<group>"; };
+		7E1548CC203D714800FC79A1 /* HideSeekAnswer60.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HideSeekAnswer60.mp3; sourceTree = "<group>"; };
+		7E1548EB203D715B00FC79A1 /* PaintingQuestion3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingQuestion3.mp3; sourceTree = "<group>"; };
+		7E1548EC203D715B00FC79A1 /* PaintingAnswer10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer10.mp3; sourceTree = "<group>"; };
+		7E1548ED203D715B00FC79A1 /* PaintingAnswer63.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer63.mp3; sourceTree = "<group>"; };
+		7E1548EE203D715B00FC79A1 /* PaintingAnswer60.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer60.mp3; sourceTree = "<group>"; };
+		7E1548EF203D715C00FC79A1 /* PaintingAnswer33.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer33.mp3; sourceTree = "<group>"; };
+		7E1548F0203D715C00FC79A1 /* PaintingAnswer30.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer30.mp3; sourceTree = "<group>"; };
+		7E1548F1203D715C00FC79A1 /* PaintingAnswer20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer20.mp3; sourceTree = "<group>"; };
+		7E1548F2203D715C00FC79A1 /* PaintingAnswer52.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer52.mp3; sourceTree = "<group>"; };
+		7E1548F3203D715C00FC79A1 /* PaintingQuestion2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingQuestion2.mp3; sourceTree = "<group>"; };
+		7E1548F4203D715C00FC79A1 /* PaintingAnswer13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer13.mp3; sourceTree = "<group>"; };
+		7E1548F5203D715C00FC79A1 /* PaintingAnswer62.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer62.mp3; sourceTree = "<group>"; };
+		7E1548F6203D715D00FC79A1 /* PaintingQuestion4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingQuestion4.mp3; sourceTree = "<group>"; };
+		7E1548F7203D715D00FC79A1 /* PaintingAnswer40.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer40.mp3; sourceTree = "<group>"; };
+		7E1548F8203D715D00FC79A1 /* PaintingQuestion5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingQuestion5.mp3; sourceTree = "<group>"; };
+		7E1548F9203D715D00FC79A1 /* PaintingAnswer51.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer51.mp3; sourceTree = "<group>"; };
+		7E1548FA203D715D00FC79A1 /* PaintingQuestion6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingQuestion6.mp3; sourceTree = "<group>"; };
+		7E1548FB203D715D00FC79A1 /* PaintingAnswer42.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer42.mp3; sourceTree = "<group>"; };
+		7E1548FC203D715E00FC79A1 /* PaintingAnswer50.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer50.mp3; sourceTree = "<group>"; };
+		7E1548FD203D715E00FC79A1 /* PaintingAnswer43.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer43.mp3; sourceTree = "<group>"; };
+		7E1548FE203D715E00FC79A1 /* PaintingAnswer53.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer53.mp3; sourceTree = "<group>"; };
+		7E1548FF203D715E00FC79A1 /* PaintingAnswer41.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer41.mp3; sourceTree = "<group>"; };
+		7E154900203D715F00FC79A1 /* PaintingAnswer12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer12.mp3; sourceTree = "<group>"; };
+		7E154901203D715F00FC79A1 /* PaintingAnswer23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer23.mp3; sourceTree = "<group>"; };
+		7E154902203D715F00FC79A1 /* PaintingAnswer61.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer61.mp3; sourceTree = "<group>"; };
+		7E154903203D715F00FC79A1 /* PaintingQuestion1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingQuestion1.mp3; sourceTree = "<group>"; };
+		7E154904203D716000FC79A1 /* PaintingAnswer32.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer32.mp3; sourceTree = "<group>"; };
+		7E154905203D716000FC79A1 /* PaintingAnswer21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer21.mp3; sourceTree = "<group>"; };
+		7E154906203D716000FC79A1 /* PaintingAnswer11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer11.mp3; sourceTree = "<group>"; };
+		7E154907203D716000FC79A1 /* PaintingAnswer22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer22.mp3; sourceTree = "<group>"; };
+		7E154908203D716000FC79A1 /* PaintingAnswer31.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaintingAnswer31.mp3; sourceTree = "<group>"; };
+		7E154927203D717100FC79A1 /* PlayDohAnswer42.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer42.mp3; sourceTree = "<group>"; };
+		7E154928203D717200FC79A1 /* PlayDohAnswer62.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer62.mp3; sourceTree = "<group>"; };
+		7E154929203D717200FC79A1 /* PlayDohAnswer10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer10.mp3; sourceTree = "<group>"; };
+		7E15492A203D717200FC79A1 /* PlayDohAnswer53.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer53.mp3; sourceTree = "<group>"; };
+		7E15492B203D717200FC79A1 /* PlayDohAnswer51.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer51.mp3; sourceTree = "<group>"; };
+		7E15492C203D717200FC79A1 /* PlayDohAnswer63.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer63.mp3; sourceTree = "<group>"; };
+		7E15492D203D717200FC79A1 /* PlayDohAnswer20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer20.mp3; sourceTree = "<group>"; };
+		7E15492E203D717300FC79A1 /* PlayDohQuestion4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohQuestion4.mp3; sourceTree = "<group>"; };
+		7E15492F203D717300FC79A1 /* PlayDohAnswer32.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer32.mp3; sourceTree = "<group>"; };
+		7E154930203D717300FC79A1 /* PlayDohAnswer11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer11.mp3; sourceTree = "<group>"; };
+		7E154931203D717300FC79A1 /* PlayDohAnswer41.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer41.mp3; sourceTree = "<group>"; };
+		7E154932203D717300FC79A1 /* PlayDohAnswer31.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer31.mp3; sourceTree = "<group>"; };
+		7E154933203D717400FC79A1 /* PlayDohAnswer52.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer52.mp3; sourceTree = "<group>"; };
+		7E154934203D717400FC79A1 /* PlayDohAnswer12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer12.mp3; sourceTree = "<group>"; };
+		7E154935203D717400FC79A1 /* PlayDohAnswer23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer23.mp3; sourceTree = "<group>"; };
+		7E154936203D717400FC79A1 /* PlayDohAnswer22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer22.mp3; sourceTree = "<group>"; };
+		7E154937203D717400FC79A1 /* PlayDohAnswer21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer21.mp3; sourceTree = "<group>"; };
+		7E154938203D717400FC79A1 /* PlayDohAnswer43.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer43.mp3; sourceTree = "<group>"; };
+		7E154939203D717500FC79A1 /* PlayDohAnswer60.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer60.mp3; sourceTree = "<group>"; };
+		7E15493A203D717500FC79A1 /* PlayDohAnswer61.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer61.mp3; sourceTree = "<group>"; };
+		7E15493B203D717500FC79A1 /* PlayDohQuestion3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohQuestion3.mp3; sourceTree = "<group>"; };
+		7E15493C203D717500FC79A1 /* PlayDohQuestion6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohQuestion6.mp3; sourceTree = "<group>"; };
+		7E15493D203D717500FC79A1 /* PlayDohAnswer30.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer30.mp3; sourceTree = "<group>"; };
+		7E15493E203D717500FC79A1 /* PlayDohQuestion5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohQuestion5.mp3; sourceTree = "<group>"; };
+		7E15493F203D717600FC79A1 /* PlayDohAnswer33.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer33.mp3; sourceTree = "<group>"; };
+		7E154940203D717600FC79A1 /* PlayDohQuestion1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohQuestion1.mp3; sourceTree = "<group>"; };
+		7E154941203D717600FC79A1 /* PlayDohAnswer13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer13.mp3; sourceTree = "<group>"; };
+		7E154942203D717600FC79A1 /* PlayDohAnswer50.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer50.mp3; sourceTree = "<group>"; };
+		7E154943203D717600FC79A1 /* PlayDohAnswer40.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohAnswer40.mp3; sourceTree = "<group>"; };
+		7E154944203D717600FC79A1 /* PlayDohQuestion2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayDohQuestion2.mp3; sourceTree = "<group>"; };
+		7E154963203D718E00FC79A1 /* PlaygroundAnswer53.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer53.mp3; sourceTree = "<group>"; };
+		7E154964203D718E00FC79A1 /* PlaygroundAnswer62.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer62.mp3; sourceTree = "<group>"; };
+		7E154965203D718E00FC79A1 /* PlaygroundAnswer50.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer50.mp3; sourceTree = "<group>"; };
+		7E154966203D718E00FC79A1 /* PlaygroundQuestion3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundQuestion3.mp3; sourceTree = "<group>"; };
+		7E154967203D718E00FC79A1 /* PlaygroundQuestion6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundQuestion6.mp3; sourceTree = "<group>"; };
+		7E154968203D718F00FC79A1 /* PlaygroundQuestion4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundQuestion4.mp3; sourceTree = "<group>"; };
+		7E154969203D718F00FC79A1 /* PlaygroundAnswer30.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer30.mp3; sourceTree = "<group>"; };
+		7E15496A203D718F00FC79A1 /* PlaygroundAnswer22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer22.mp3; sourceTree = "<group>"; };
+		7E15496B203D718F00FC79A1 /* PlaygroundAnswer12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer12.mp3; sourceTree = "<group>"; };
+		7E15496C203D719000FC79A1 /* PlaygroundQuestion2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundQuestion2.mp3; sourceTree = "<group>"; };
+		7E15496D203D719000FC79A1 /* PlaygroundAnswer31.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer31.mp3; sourceTree = "<group>"; };
+		7E15496E203D719000FC79A1 /* PlaygroundAnswer11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer11.mp3; sourceTree = "<group>"; };
+		7E15496F203D719000FC79A1 /* PlaygroundAnswer20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer20.mp3; sourceTree = "<group>"; };
+		7E154970203D719100FC79A1 /* PlaygroundAnswer61.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer61.mp3; sourceTree = "<group>"; };
+		7E154971203D719100FC79A1 /* PlaygroundAnswer43.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer43.mp3; sourceTree = "<group>"; };
+		7E154972203D719100FC79A1 /* PlaygroundAnswer13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer13.mp3; sourceTree = "<group>"; };
+		7E154973203D719100FC79A1 /* PlaygroundAnswer21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer21.mp3; sourceTree = "<group>"; };
+		7E154974203D719100FC79A1 /* PlaygroundAnswer33.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer33.mp3; sourceTree = "<group>"; };
+		7E154975203D719100FC79A1 /* PlaygroundAnswer60.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer60.mp3; sourceTree = "<group>"; };
+		7E154976203D719200FC79A1 /* PlaygroundQuestion1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundQuestion1.mp3; sourceTree = "<group>"; };
+		7E154977203D719200FC79A1 /* PlaygroundAnswer41.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer41.mp3; sourceTree = "<group>"; };
+		7E154978203D719200FC79A1 /* PlaygroundAnswer32.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer32.mp3; sourceTree = "<group>"; };
+		7E154979203D719200FC79A1 /* PlaygroundAnswer42.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer42.mp3; sourceTree = "<group>"; };
+		7E15497A203D719200FC79A1 /* PlaygroundAnswer40.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer40.mp3; sourceTree = "<group>"; };
+		7E15497B203D719300FC79A1 /* PlaygroundAnswer52.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer52.mp3; sourceTree = "<group>"; };
+		7E15497C203D719300FC79A1 /* PlaygroundAnswer51.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer51.mp3; sourceTree = "<group>"; };
+		7E15497D203D719300FC79A1 /* PlaygroundQuestion5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundQuestion5.mp3; sourceTree = "<group>"; };
+		7E15497E203D719300FC79A1 /* PlaygroundAnswer10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer10.mp3; sourceTree = "<group>"; };
+		7E15497F203D719300FC79A1 /* PlaygroundAnswer23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer23.mp3; sourceTree = "<group>"; };
+		7E154980203D719300FC79A1 /* PlaygroundAnswer63.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlaygroundAnswer63.mp3; sourceTree = "<group>"; };
+		7E15499F203D71A300FC79A1 /* RidingBikesAnswer41.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer41.mp3; sourceTree = "<group>"; };
+		7E1549A0203D71A300FC79A1 /* RidingBikesAnswer13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer13.mp3; sourceTree = "<group>"; };
+		7E1549A1203D71A400FC79A1 /* RidingBikesAnswer23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer23.mp3; sourceTree = "<group>"; };
+		7E1549A2203D71A400FC79A1 /* RidingBikesAnswer52.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer52.mp3; sourceTree = "<group>"; };
+		7E1549A3203D71A400FC79A1 /* RidingBikesAnswer43.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer43.mp3; sourceTree = "<group>"; };
+		7E1549A4203D71A400FC79A1 /* RidingBikesAnswer10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer10.mp3; sourceTree = "<group>"; };
+		7E1549A5203D71A400FC79A1 /* RidingBikesQuestion6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesQuestion6.mp3; sourceTree = "<group>"; };
+		7E1549A6203D71A500FC79A1 /* RidingBikesAnswer40.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer40.mp3; sourceTree = "<group>"; };
+		7E1549A7203D71A500FC79A1 /* RidingBikesAnswer32.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer32.mp3; sourceTree = "<group>"; };
+		7E1549A8203D71A500FC79A1 /* RidingBikesAnswer21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer21.mp3; sourceTree = "<group>"; };
+		7E1549A9203D71A500FC79A1 /* RidingBikesAnswer33.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer33.mp3; sourceTree = "<group>"; };
+		7E1549AA203D71A500FC79A1 /* RidingBikesAnswer42.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer42.mp3; sourceTree = "<group>"; };
+		7E1549AB203D71A600FC79A1 /* RidingBikesQuestion3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesQuestion3.mp3; sourceTree = "<group>"; };
+		7E1549AC203D71A600FC79A1 /* RidingBikesQuestion4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesQuestion4.mp3; sourceTree = "<group>"; };
+		7E1549AD203D71A600FC79A1 /* RidingBikesQuestion5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesQuestion5.mp3; sourceTree = "<group>"; };
+		7E1549AE203D71A600FC79A1 /* RidingBikesAnswer20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer20.mp3; sourceTree = "<group>"; };
+		7E1549AF203D71A700FC79A1 /* RidingBikesQuestion1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesQuestion1.mp3; sourceTree = "<group>"; };
+		7E1549B0203D71A700FC79A1 /* RidingBikesQuestion2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesQuestion2.mp3; sourceTree = "<group>"; };
+		7E1549B1203D71A700FC79A1 /* RidingBikesAnswer30.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer30.mp3; sourceTree = "<group>"; };
+		7E1549B2203D71A700FC79A1 /* RidingBikesAnswer51.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer51.mp3; sourceTree = "<group>"; };
+		7E1549B3203D71A800FC79A1 /* RidingBikesAnswer61.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer61.mp3; sourceTree = "<group>"; };
+		7E1549B4203D71A800FC79A1 /* RidingBikesAnswer12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer12.mp3; sourceTree = "<group>"; };
+		7E1549B5203D71A800FC79A1 /* RidingBikesAnswer22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer22.mp3; sourceTree = "<group>"; };
+		7E1549B6203D71A800FC79A1 /* RidingBikesAnswer62.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer62.mp3; sourceTree = "<group>"; };
+		7E1549B7203D71A900FC79A1 /* RidingBikesAnswer60.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer60.mp3; sourceTree = "<group>"; };
+		7E1549B8203D71A900FC79A1 /* RidingBikesAnswer63.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer63.mp3; sourceTree = "<group>"; };
+		7E1549B9203D71A900FC79A1 /* RidingBikesAnswer11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer11.mp3; sourceTree = "<group>"; };
+		7E1549BA203D71A900FC79A1 /* RidingBikesAnswer50.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer50.mp3; sourceTree = "<group>"; };
+		7E1549BB203D71A900FC79A1 /* RidingBikesAnswer53.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer53.mp3; sourceTree = "<group>"; };
+		7E1549BC203D71AA00FC79A1 /* RidingBikesAnswer31.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RidingBikesAnswer31.mp3; sourceTree = "<group>"; };
+		7E1549DB203D71B800FC79A1 /* SandpitAnswer13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer13.mp3; sourceTree = "<group>"; };
+		7E1549DC203D71B800FC79A1 /* SandpitAnswer22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer22.mp3; sourceTree = "<group>"; };
+		7E1549DD203D71B800FC79A1 /* SandpitAnswer60.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer60.mp3; sourceTree = "<group>"; };
+		7E1549DE203D71B800FC79A1 /* SandpitQuestion3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitQuestion3.mp3; sourceTree = "<group>"; };
+		7E1549DF203D71B900FC79A1 /* SandpitAnswer20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer20.mp3; sourceTree = "<group>"; };
+		7E1549E0203D71B900FC79A1 /* SandpitQuestion5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitQuestion5.mp3; sourceTree = "<group>"; };
+		7E1549E1203D71B900FC79A1 /* SandpitAnswer52.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer52.mp3; sourceTree = "<group>"; };
+		7E1549E2203D71B900FC79A1 /* SandpitQuestion1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitQuestion1.mp3; sourceTree = "<group>"; };
+		7E1549E3203D71B900FC79A1 /* SandpitAnswer41.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer41.mp3; sourceTree = "<group>"; };
+		7E1549E4203D71BA00FC79A1 /* SandpitAnswer30.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer30.mp3; sourceTree = "<group>"; };
+		7E1549E5203D71BA00FC79A1 /* SandpitAnswer53.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer53.mp3; sourceTree = "<group>"; };
+		7E1549E6203D71BA00FC79A1 /* SandpitAnswer40.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer40.mp3; sourceTree = "<group>"; };
+		7E1549E7203D71BA00FC79A1 /* SandpitAnswer61.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer61.mp3; sourceTree = "<group>"; };
+		7E1549E8203D71BA00FC79A1 /* SandpitAnswer50.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer50.mp3; sourceTree = "<group>"; };
+		7E1549E9203D71BB00FC79A1 /* SandpitQuestion4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitQuestion4.mp3; sourceTree = "<group>"; };
+		7E1549EA203D71BB00FC79A1 /* SandpitAnswer43.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer43.mp3; sourceTree = "<group>"; };
+		7E1549EB203D71BB00FC79A1 /* SandpitAnswer62.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer62.mp3; sourceTree = "<group>"; };
+		7E1549EC203D71BB00FC79A1 /* SandpitAnswer12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer12.mp3; sourceTree = "<group>"; };
+		7E1549ED203D71BC00FC79A1 /* SandpitQuestion6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SandpitQuestion6.mp3; path = Sandpit/SandpitQuestion6.mp3; sourceTree = "<group>"; };
+		7E1549EE203D71BC00FC79A1 /* SandpitAnswer21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer21.mp3; sourceTree = "<group>"; };
+		7E1549EF203D71BC00FC79A1 /* SandpitQuestion2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitQuestion2.mp3; sourceTree = "<group>"; };
+		7E1549F0203D71BC00FC79A1 /* SandpitAnswer23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer23.mp3; sourceTree = "<group>"; };
+		7E1549F1203D71BC00FC79A1 /* SandpitAnswer33.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer33.mp3; sourceTree = "<group>"; };
+		7E1549F2203D71BC00FC79A1 /* SandpitAnswer42.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer42.mp3; sourceTree = "<group>"; };
+		7E1549F3203D71BD00FC79A1 /* SandpitAnswer10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer10.mp3; sourceTree = "<group>"; };
+		7E1549F4203D71BD00FC79A1 /* SandpitAnswer31.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer31.mp3; sourceTree = "<group>"; };
+		7E1549F5203D71BD00FC79A1 /* SandpitAnswer63.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer63.mp3; sourceTree = "<group>"; };
+		7E1549F6203D71BD00FC79A1 /* SandpitAnswer11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer11.mp3; sourceTree = "<group>"; };
+		7E1549F7203D71BD00FC79A1 /* SandpitAnswer32.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer32.mp3; sourceTree = "<group>"; };
+		7E1549F8203D71BE00FC79A1 /* SandpitAnswer51.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SandpitAnswer51.mp3; sourceTree = "<group>"; };
+		7E337814203AC1CE00BA32A2 /* ArrayStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayStructure.swift; sourceTree = "<group>"; };
+		7E337816203AC4DD00BA32A2 /* DataInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInput.swift; sourceTree = "<group>"; };
+		7EAFCEE520384EEF00001528 /* MasterSocialSkillsPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterSocialSkillsPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EAFCEE820384EEF00001528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EAFCEEA20384EEF00001528 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EAFCEED20384EEF00001528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EAFCEEF20384EEF00001528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EAFCEF220384EEF00001528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EAFCEF420384EEF00001528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EAFCEE220384EEF00001528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E154869203C302A00FC79A1 /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E1548C6203D714700FC79A1 /* HideSeekAnswer10.mp3 */,
+				7E1548B9203D714300FC79A1 /* HideSeekAnswer11.mp3 */,
+				7E1548C2203D714600FC79A1 /* HideSeekAnswer12.mp3 */,
+				7E1548B0203D714200FC79A1 /* HideSeekAnswer13.mp3 */,
+				7E1548BB203D714400FC79A1 /* HideSeekAnswer20.mp3 */,
+				7E1548CB203D714800FC79A1 /* HideSeekAnswer21.mp3 */,
+				7E1548EC203D715B00FC79A1 /* PaintingAnswer10.mp3 */,
+				7E154906203D716000FC79A1 /* PaintingAnswer11.mp3 */,
+				7E154900203D715F00FC79A1 /* PaintingAnswer12.mp3 */,
+				7E1548F4203D715C00FC79A1 /* PaintingAnswer13.mp3 */,
+				7E1548F1203D715C00FC79A1 /* PaintingAnswer20.mp3 */,
+				7E154905203D716000FC79A1 /* PaintingAnswer21.mp3 */,
+				7E154907203D716000FC79A1 /* PaintingAnswer22.mp3 */,
+				7E154901203D715F00FC79A1 /* PaintingAnswer23.mp3 */,
+				7E1548F0203D715C00FC79A1 /* PaintingAnswer30.mp3 */,
+				7E154908203D716000FC79A1 /* PaintingAnswer31.mp3 */,
+				7E154904203D716000FC79A1 /* PaintingAnswer32.mp3 */,
+				7E1548EF203D715C00FC79A1 /* PaintingAnswer33.mp3 */,
+				7E1548F7203D715D00FC79A1 /* PaintingAnswer40.mp3 */,
+				7E1548FF203D715E00FC79A1 /* PaintingAnswer41.mp3 */,
+				7E1548FB203D715D00FC79A1 /* PaintingAnswer42.mp3 */,
+				7E1548FD203D715E00FC79A1 /* PaintingAnswer43.mp3 */,
+				7E1548FC203D715E00FC79A1 /* PaintingAnswer50.mp3 */,
+				7E1548F9203D715D00FC79A1 /* PaintingAnswer51.mp3 */,
+				7E1548F2203D715C00FC79A1 /* PaintingAnswer52.mp3 */,
+				7E1548FE203D715E00FC79A1 /* PaintingAnswer53.mp3 */,
+				7E1548EE203D715B00FC79A1 /* PaintingAnswer60.mp3 */,
+				7E154902203D715F00FC79A1 /* PaintingAnswer61.mp3 */,
+				7E1548F5203D715C00FC79A1 /* PaintingAnswer62.mp3 */,
+				7E1548ED203D715B00FC79A1 /* PaintingAnswer63.mp3 */,
+				7E154903203D715F00FC79A1 /* PaintingQuestion1.mp3 */,
+				7E1548F3203D715C00FC79A1 /* PaintingQuestion2.mp3 */,
+				7E1548EB203D715B00FC79A1 /* PaintingQuestion3.mp3 */,
+				7E1548F6203D715D00FC79A1 /* PaintingQuestion4.mp3 */,
+				7E1548F8203D715D00FC79A1 /* PaintingQuestion5.mp3 */,
+				7E1548FA203D715D00FC79A1 /* PaintingQuestion6.mp3 */,
+				7E1548B6203D714300FC79A1 /* HideSeekAnswer22.mp3 */,
+				7E1548BA203D714400FC79A1 /* HideSeekAnswer23.mp3 */,
+				7E1548AF203D714200FC79A1 /* HideSeekAnswer30.mp3 */,
+				7E1548C4203D714600FC79A1 /* HideSeekAnswer31.mp3 */,
+				7E1548C0203D714500FC79A1 /* HideSeekAnswer32.mp3 */,
+				7E1548C5203D714700FC79A1 /* HideSeekAnswer33.mp3 */,
+				7E1548C9203D714700FC79A1 /* HideSeekAnswer40.mp3 */,
+				7E1548BD203D714400FC79A1 /* HideSeekAnswer41.mp3 */,
+				7E1548C7203D714700FC79A1 /* HideSeekAnswer42.mp3 */,
+				7E1548BC203D714400FC79A1 /* HideSeekAnswer43.mp3 */,
+				7E1548BE203D714400FC79A1 /* HideSeekAnswer50.mp3 */,
+				7E1548C1203D714500FC79A1 /* HideSeekAnswer51.mp3 */,
+				7E1548C8203D714700FC79A1 /* HideSeekAnswer52.mp3 */,
+				7E1548B8203D714300FC79A1 /* HideSeekAnswer53.mp3 */,
+				7E1548CC203D714800FC79A1 /* HideSeekAnswer60.mp3 */,
+				7E1548B1203D714200FC79A1 /* HideSeekAnswer61.mp3 */,
+				7E1548B7203D714300FC79A1 /* HideSeekAnswer62.mp3 */,
+				7E1548B2203D714200FC79A1 /* HideSeekAnswer63.mp3 */,
+				7E1548C3203D714600FC79A1 /* HideSeekQuestion1.mp3 */,
+				7E1548B3203D714200FC79A1 /* HideSeekQuestion2.mp3 */,
+				7E1548B5203D714300FC79A1 /* HideSeekQuestion3.mp3 */,
+				7E1548CA203D714700FC79A1 /* HideSeekQuestion4.mp3 */,
+				7E154929203D717200FC79A1 /* PlayDohAnswer10.mp3 */,
+				7E154930203D717300FC79A1 /* PlayDohAnswer11.mp3 */,
+				7E154934203D717400FC79A1 /* PlayDohAnswer12.mp3 */,
+				7E154941203D717600FC79A1 /* PlayDohAnswer13.mp3 */,
+				7E15492D203D717200FC79A1 /* PlayDohAnswer20.mp3 */,
+				7E154937203D717400FC79A1 /* PlayDohAnswer21.mp3 */,
+				7E154936203D717400FC79A1 /* PlayDohAnswer22.mp3 */,
+				7E154935203D717400FC79A1 /* PlayDohAnswer23.mp3 */,
+				7E15493D203D717500FC79A1 /* PlayDohAnswer30.mp3 */,
+				7E154932203D717300FC79A1 /* PlayDohAnswer31.mp3 */,
+				7E15492F203D717300FC79A1 /* PlayDohAnswer32.mp3 */,
+				7E15493F203D717600FC79A1 /* PlayDohAnswer33.mp3 */,
+				7E154943203D717600FC79A1 /* PlayDohAnswer40.mp3 */,
+				7E154931203D717300FC79A1 /* PlayDohAnswer41.mp3 */,
+				7E154927203D717100FC79A1 /* PlayDohAnswer42.mp3 */,
+				7E154938203D717400FC79A1 /* PlayDohAnswer43.mp3 */,
+				7E154942203D717600FC79A1 /* PlayDohAnswer50.mp3 */,
+				7E15492B203D717200FC79A1 /* PlayDohAnswer51.mp3 */,
+				7E154933203D717400FC79A1 /* PlayDohAnswer52.mp3 */,
+				7E15492A203D717200FC79A1 /* PlayDohAnswer53.mp3 */,
+				7E154939203D717500FC79A1 /* PlayDohAnswer60.mp3 */,
+				7E15493A203D717500FC79A1 /* PlayDohAnswer61.mp3 */,
+				7E154928203D717200FC79A1 /* PlayDohAnswer62.mp3 */,
+				7E15492C203D717200FC79A1 /* PlayDohAnswer63.mp3 */,
+				7E154940203D717600FC79A1 /* PlayDohQuestion1.mp3 */,
+				7E154944203D717600FC79A1 /* PlayDohQuestion2.mp3 */,
+				7E15493B203D717500FC79A1 /* PlayDohQuestion3.mp3 */,
+				7E15492E203D717300FC79A1 /* PlayDohQuestion4.mp3 */,
+				7E15493E203D717500FC79A1 /* PlayDohQuestion5.mp3 */,
+				7E15493C203D717500FC79A1 /* PlayDohQuestion6.mp3 */,
+				7E1548B4203D714300FC79A1 /* HideSeekQuestion5.mp3 */,
+				7E15497E203D719300FC79A1 /* PlaygroundAnswer10.mp3 */,
+				7E15496E203D719000FC79A1 /* PlaygroundAnswer11.mp3 */,
+				7E15496B203D718F00FC79A1 /* PlaygroundAnswer12.mp3 */,
+				7E154972203D719100FC79A1 /* PlaygroundAnswer13.mp3 */,
+				7E15496F203D719000FC79A1 /* PlaygroundAnswer20.mp3 */,
+				7E154973203D719100FC79A1 /* PlaygroundAnswer21.mp3 */,
+				7E15496A203D718F00FC79A1 /* PlaygroundAnswer22.mp3 */,
+				7E15497F203D719300FC79A1 /* PlaygroundAnswer23.mp3 */,
+				7E154969203D718F00FC79A1 /* PlaygroundAnswer30.mp3 */,
+				7E15496D203D719000FC79A1 /* PlaygroundAnswer31.mp3 */,
+				7E154978203D719200FC79A1 /* PlaygroundAnswer32.mp3 */,
+				7E154974203D719100FC79A1 /* PlaygroundAnswer33.mp3 */,
+				7E15497A203D719200FC79A1 /* PlaygroundAnswer40.mp3 */,
+				7E154977203D719200FC79A1 /* PlaygroundAnswer41.mp3 */,
+				7E154979203D719200FC79A1 /* PlaygroundAnswer42.mp3 */,
+				7E154971203D719100FC79A1 /* PlaygroundAnswer43.mp3 */,
+				7E154965203D718E00FC79A1 /* PlaygroundAnswer50.mp3 */,
+				7E15497C203D719300FC79A1 /* PlaygroundAnswer51.mp3 */,
+				7E15497B203D719300FC79A1 /* PlaygroundAnswer52.mp3 */,
+				7E154963203D718E00FC79A1 /* PlaygroundAnswer53.mp3 */,
+				7E154975203D719100FC79A1 /* PlaygroundAnswer60.mp3 */,
+				7E154970203D719100FC79A1 /* PlaygroundAnswer61.mp3 */,
+				7E154964203D718E00FC79A1 /* PlaygroundAnswer62.mp3 */,
+				7E154980203D719300FC79A1 /* PlaygroundAnswer63.mp3 */,
+				7E154976203D719200FC79A1 /* PlaygroundQuestion1.mp3 */,
+				7E15496C203D719000FC79A1 /* PlaygroundQuestion2.mp3 */,
+				7E154966203D718E00FC79A1 /* PlaygroundQuestion3.mp3 */,
+				7E154968203D718F00FC79A1 /* PlaygroundQuestion4.mp3 */,
+				7E15497D203D719300FC79A1 /* PlaygroundQuestion5.mp3 */,
+				7E154967203D718E00FC79A1 /* PlaygroundQuestion6.mp3 */,
+				7E1549A4203D71A400FC79A1 /* RidingBikesAnswer10.mp3 */,
+				7E1549B9203D71A900FC79A1 /* RidingBikesAnswer11.mp3 */,
+				7E1549B4203D71A800FC79A1 /* RidingBikesAnswer12.mp3 */,
+				7E1549A0203D71A300FC79A1 /* RidingBikesAnswer13.mp3 */,
+				7E1549AE203D71A600FC79A1 /* RidingBikesAnswer20.mp3 */,
+				7E1549A8203D71A500FC79A1 /* RidingBikesAnswer21.mp3 */,
+				7E1549B5203D71A800FC79A1 /* RidingBikesAnswer22.mp3 */,
+				7E1549A1203D71A400FC79A1 /* RidingBikesAnswer23.mp3 */,
+				7E1549B1203D71A700FC79A1 /* RidingBikesAnswer30.mp3 */,
+				7E1549BC203D71AA00FC79A1 /* RidingBikesAnswer31.mp3 */,
+				7E1549A7203D71A500FC79A1 /* RidingBikesAnswer32.mp3 */,
+				7E1549A9203D71A500FC79A1 /* RidingBikesAnswer33.mp3 */,
+				7E1549A6203D71A500FC79A1 /* RidingBikesAnswer40.mp3 */,
+				7E15499F203D71A300FC79A1 /* RidingBikesAnswer41.mp3 */,
+				7E1549AA203D71A500FC79A1 /* RidingBikesAnswer42.mp3 */,
+				7E1549A3203D71A400FC79A1 /* RidingBikesAnswer43.mp3 */,
+				7E1549BA203D71A900FC79A1 /* RidingBikesAnswer50.mp3 */,
+				7E1549B2203D71A700FC79A1 /* RidingBikesAnswer51.mp3 */,
+				7E1549A2203D71A400FC79A1 /* RidingBikesAnswer52.mp3 */,
+				7E1549BB203D71A900FC79A1 /* RidingBikesAnswer53.mp3 */,
+				7E1549B7203D71A900FC79A1 /* RidingBikesAnswer60.mp3 */,
+				7E1549B3203D71A800FC79A1 /* RidingBikesAnswer61.mp3 */,
+				7E1549B6203D71A800FC79A1 /* RidingBikesAnswer62.mp3 */,
+				7E1549B8203D71A900FC79A1 /* RidingBikesAnswer63.mp3 */,
+				7E1549AF203D71A700FC79A1 /* RidingBikesQuestion1.mp3 */,
+				7E1549B0203D71A700FC79A1 /* RidingBikesQuestion2.mp3 */,
+				7E1549AB203D71A600FC79A1 /* RidingBikesQuestion3.mp3 */,
+				7E1549AC203D71A600FC79A1 /* RidingBikesQuestion4.mp3 */,
+				7E1549AD203D71A600FC79A1 /* RidingBikesQuestion5.mp3 */,
+				7E1549A5203D71A400FC79A1 /* RidingBikesQuestion6.mp3 */,
+				7E1549F3203D71BD00FC79A1 /* SandpitAnswer10.mp3 */,
+				7E1549F6203D71BD00FC79A1 /* SandpitAnswer11.mp3 */,
+				7E1549EC203D71BB00FC79A1 /* SandpitAnswer12.mp3 */,
+				7E1549DB203D71B800FC79A1 /* SandpitAnswer13.mp3 */,
+				7E1549DF203D71B900FC79A1 /* SandpitAnswer20.mp3 */,
+				7E1549EE203D71BC00FC79A1 /* SandpitAnswer21.mp3 */,
+				7E1549DC203D71B800FC79A1 /* SandpitAnswer22.mp3 */,
+				7E1549F0203D71BC00FC79A1 /* SandpitAnswer23.mp3 */,
+				7E1549E4203D71BA00FC79A1 /* SandpitAnswer30.mp3 */,
+				7E1549F4203D71BD00FC79A1 /* SandpitAnswer31.mp3 */,
+				7E1549F7203D71BD00FC79A1 /* SandpitAnswer32.mp3 */,
+				7E1549F1203D71BC00FC79A1 /* SandpitAnswer33.mp3 */,
+				7E1549E6203D71BA00FC79A1 /* SandpitAnswer40.mp3 */,
+				7E1549E3203D71B900FC79A1 /* SandpitAnswer41.mp3 */,
+				7E1549F2203D71BC00FC79A1 /* SandpitAnswer42.mp3 */,
+				7E1549EA203D71BB00FC79A1 /* SandpitAnswer43.mp3 */,
+				7E1549E8203D71BA00FC79A1 /* SandpitAnswer50.mp3 */,
+				7E1549F8203D71BE00FC79A1 /* SandpitAnswer51.mp3 */,
+				7E1549E1203D71B900FC79A1 /* SandpitAnswer52.mp3 */,
+				7E1549E5203D71BA00FC79A1 /* SandpitAnswer53.mp3 */,
+				7E1549DD203D71B800FC79A1 /* SandpitAnswer60.mp3 */,
+				7E1549E7203D71BA00FC79A1 /* SandpitAnswer61.mp3 */,
+				7E1549EB203D71BB00FC79A1 /* SandpitAnswer62.mp3 */,
+				7E1549F5203D71BD00FC79A1 /* SandpitAnswer63.mp3 */,
+				7E1549E2203D71B900FC79A1 /* SandpitQuestion1.mp3 */,
+				7E1549EF203D71BC00FC79A1 /* SandpitQuestion2.mp3 */,
+				7E1549DE203D71B800FC79A1 /* SandpitQuestion3.mp3 */,
+				7E1549E9203D71BB00FC79A1 /* SandpitQuestion4.mp3 */,
+				7E1549E0203D71B900FC79A1 /* SandpitQuestion5.mp3 */,
+				7E1549ED203D71BC00FC79A1 /* SandpitQuestion6.mp3 */,
+				7E1548BF203D714500FC79A1 /* HideSeekQuestion6.mp3 */,
+				7E1548AD203D700000FC79A1 /* SandpitQuestion6.mp3 */,
+				7E15489C203D6D4000FC79A1 /* MenuAudio.mp3 */,
+				7E1548A3203D6D4100FC79A1 /* TryAgainOption2.mp3 */,
+				7E1548A0203D6D4100FC79A1 /* WellDoneOption1.mp3 */,
+				7E15486A203C303900FC79A1 /* MenuAudio.mp3 */,
+			);
+			path = "Sound Files";
+			sourceTree = "<group>";
+		};
+		7E337811203AC16D00BA32A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EAFCEE820384EEF00001528 /* AppDelegate.swift */,
+				7EAFCEEC20384EEF00001528 /* Main.storyboard */,
+				7EAFCEF120384EEF00001528 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E337812203AC17400BA32A2 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				7EAFCEEA20384EEF00001528 /* ViewController.swift */,
+				7E154867203C20FC00FC79A1 /* PlayMusic.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		7E337813203AC18300BA32A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E337814203AC1CE00BA32A2 /* ArrayStructure.swift */,
+				7E337816203AC4DD00BA32A2 /* DataInput.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7EAFCEDC20384EEF00001528 = {
+			isa = PBXGroup;
+			children = (
+				7EAFCEE720384EEF00001528 /* MasterSocialSkillsPlay */,
+				7EAFCEE620384EEF00001528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EAFCEE620384EEF00001528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EAFCEE520384EEF00001528 /* MasterSocialSkillsPlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EAFCEE720384EEF00001528 /* MasterSocialSkillsPlay */ = {
+			isa = PBXGroup;
+			children = (
+				7E337813203AC18300BA32A2 /* Model */,
+				7E337812203AC17400BA32A2 /* Control */,
+				7E337811203AC16D00BA32A2 /* View */,
+				7EAFCEEF20384EEF00001528 /* Assets.xcassets */,
+				7E154869203C302A00FC79A1 /* Sound Files */,
+				7EAFCEF420384EEF00001528 /* Info.plist */,
+			);
+			path = MasterSocialSkillsPlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EAFCEE420384EEF00001528 /* MasterSocialSkillsPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EAFCEF720384EEF00001528 /* Build configuration list for PBXNativeTarget "MasterSocialSkillsPlay" */;
+			buildPhases = (
+				7EAFCEE120384EEF00001528 /* Sources */,
+				7EAFCEE220384EEF00001528 /* Frameworks */,
+				7EAFCEE320384EEF00001528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasterSocialSkillsPlay;
+			productName = MasterSocialSkillsPlay;
+			productReference = 7EAFCEE520384EEF00001528 /* MasterSocialSkillsPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EAFCEDD20384EEF00001528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MasterSocialSkills;
+				TargetAttributes = {
+					7EAFCEE420384EEF00001528 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7EAFCEE020384EEF00001528 /* Build configuration list for PBXProject "MasterSocialSkillsPlay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EAFCEDC20384EEF00001528;
+			productRefGroup = 7EAFCEE620384EEF00001528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EAFCEE420384EEF00001528 /* MasterSocialSkillsPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EAFCEE320384EEF00001528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E154920203D716100FC79A1 /* PaintingAnswer61.mp3 in Resources */,
+				7E15490F203D716100FC79A1 /* PaintingAnswer20.mp3 in Resources */,
+				7E15499A203D719400FC79A1 /* PlaygroundAnswer51.mp3 in Resources */,
+				7E154A13203D71BE00FC79A1 /* SandpitAnswer63.mp3 in Resources */,
+				7E1549CF203D71AA00FC79A1 /* RidingBikesAnswer30.mp3 in Resources */,
+				7E154950203D717700FC79A1 /* PlayDohAnswer31.mp3 in Resources */,
+				7E154918203D716100FC79A1 /* PaintingQuestion6.mp3 in Resources */,
+				7E154909203D716100FC79A1 /* PaintingQuestion3.mp3 in Resources */,
+				7E1549C9203D71AA00FC79A1 /* RidingBikesQuestion3.mp3 in Resources */,
+				7E154988203D719400FC79A1 /* PlaygroundAnswer22.mp3 in Resources */,
+				7E15499B203D719400FC79A1 /* PlaygroundQuestion5.mp3 in Resources */,
+				7E15494B203D717700FC79A1 /* PlayDohAnswer20.mp3 in Resources */,
+				7E154913203D716100FC79A1 /* PaintingAnswer62.mp3 in Resources */,
+				7E1548D4203D714800FC79A1 /* HideSeekAnswer22.mp3 in Resources */,
+				7E154A11203D71BE00FC79A1 /* SandpitAnswer10.mp3 in Resources */,
+				7E1549D7203D71AA00FC79A1 /* RidingBikesAnswer11.mp3 in Resources */,
+				7E154A03203D71BE00FC79A1 /* SandpitAnswer53.mp3 in Resources */,
+				7E154A0D203D71BE00FC79A1 /* SandpitQuestion2.mp3 in Resources */,
+				7E154921203D716100FC79A1 /* PaintingQuestion1.mp3 in Resources */,
+				7E154A14203D71BE00FC79A1 /* SandpitAnswer11.mp3 in Resources */,
+				7E154957203D717700FC79A1 /* PlayDohAnswer60.mp3 in Resources */,
+				7E15490D203D716100FC79A1 /* PaintingAnswer33.mp3 in Resources */,
+				7E1549CE203D71AA00FC79A1 /* RidingBikesQuestion2.mp3 in Resources */,
+				7E154926203D716100FC79A1 /* PaintingAnswer31.mp3 in Resources */,
+				7E154996203D719400FC79A1 /* PlaygroundAnswer32.mp3 in Resources */,
+				7E15494F203D717700FC79A1 /* PlayDohAnswer41.mp3 in Resources */,
+				7E1548AE203D700000FC79A1 /* SandpitQuestion6.mp3 in Resources */,
+				7E1549D9203D71AA00FC79A1 /* RidingBikesAnswer53.mp3 in Resources */,
+				7E1548E6203D714800FC79A1 /* HideSeekAnswer52.mp3 in Resources */,
+				7E1549D8203D71AA00FC79A1 /* RidingBikesAnswer50.mp3 in Resources */,
+				7E1548D8203D714800FC79A1 /* HideSeekAnswer23.mp3 in Resources */,
+				7E15495C203D717700FC79A1 /* PlayDohQuestion5.mp3 in Resources */,
+				7E1549D3203D71AA00FC79A1 /* RidingBikesAnswer22.mp3 in Resources */,
+				7E1548D7203D714800FC79A1 /* HideSeekAnswer11.mp3 in Resources */,
+				7E154958203D717700FC79A1 /* PlayDohAnswer61.mp3 in Resources */,
+				7E1549C3203D71AA00FC79A1 /* RidingBikesQuestion6.mp3 in Resources */,
+				7E154914203D716100FC79A1 /* PaintingQuestion4.mp3 in Resources */,
+				7E154982203D719400FC79A1 /* PlaygroundAnswer62.mp3 in Resources */,
+				7E154989203D719400FC79A1 /* PlaygroundAnswer12.mp3 in Resources */,
+				7E154961203D717700FC79A1 /* PlayDohAnswer40.mp3 in Resources */,
+				7E154983203D719400FC79A1 /* PlaygroundAnswer50.mp3 in Resources */,
+				7E15491F203D716100FC79A1 /* PaintingAnswer23.mp3 in Resources */,
+				7E1548A5203D6D4100FC79A1 /* MenuAudio.mp3 in Resources */,
+				7E1548AC203D6D4100FC79A1 /* TryAgainOption2.mp3 in Resources */,
+				7E1548DB203D714800FC79A1 /* HideSeekAnswer41.mp3 in Resources */,
+				7E15490B203D716100FC79A1 /* PaintingAnswer63.mp3 in Resources */,
+				7E15494E203D717700FC79A1 /* PlayDohAnswer11.mp3 in Resources */,
+				7E1548E2203D714800FC79A1 /* HideSeekAnswer31.mp3 in Resources */,
+				7E1548DA203D714800FC79A1 /* HideSeekAnswer43.mp3 in Resources */,
+				7E154916203D716100FC79A1 /* PaintingQuestion5.mp3 in Resources */,
+				7E154912203D716100FC79A1 /* PaintingAnswer13.mp3 in Resources */,
+				7E15495E203D717700FC79A1 /* PlayDohQuestion1.mp3 in Resources */,
+				7E154992203D719400FC79A1 /* PlaygroundAnswer33.mp3 in Resources */,
+				7E1548DE203D714800FC79A1 /* HideSeekAnswer32.mp3 in Resources */,
+				7E1549C0203D71AA00FC79A1 /* RidingBikesAnswer52.mp3 in Resources */,
+				7E1549D0203D71AA00FC79A1 /* RidingBikesAnswer51.mp3 in Resources */,
+				7E154922203D716100FC79A1 /* PaintingAnswer32.mp3 in Resources */,
+				7E1548E9203D714800FC79A1 /* HideSeekAnswer21.mp3 in Resources */,
+				7E154946203D717700FC79A1 /* PlayDohAnswer62.mp3 in Resources */,
+				7E154A0F203D71BE00FC79A1 /* SandpitAnswer33.mp3 in Resources */,
+				7E154949203D717700FC79A1 /* PlayDohAnswer51.mp3 in Resources */,
+				7E154997203D719400FC79A1 /* PlaygroundAnswer42.mp3 in Resources */,
+				7E154A12203D71BE00FC79A1 /* SandpitAnswer31.mp3 in Resources */,
+				7E154A06203D71BE00FC79A1 /* SandpitAnswer50.mp3 in Resources */,
+				7E1549C1203D71AA00FC79A1 /* RidingBikesAnswer43.mp3 in Resources */,
+				7E1548DD203D714800FC79A1 /* HideSeekQuestion6.mp3 in Resources */,
+				7E1548DF203D714800FC79A1 /* HideSeekAnswer51.mp3 in Resources */,
+				7E1548E3203D714800FC79A1 /* HideSeekAnswer33.mp3 in Resources */,
+				7E154948203D717700FC79A1 /* PlayDohAnswer53.mp3 in Resources */,
+				7E154A0A203D71BE00FC79A1 /* SandpitAnswer12.mp3 in Resources */,
+				7E1549CD203D71AA00FC79A1 /* RidingBikesQuestion1.mp3 in Resources */,
+				7E1549FA203D71BE00FC79A1 /* SandpitAnswer22.mp3 in Resources */,
+				7E15498B203D719400FC79A1 /* PlaygroundAnswer31.mp3 in Resources */,
+				7E1549D2203D71AA00FC79A1 /* RidingBikesAnswer12.mp3 in Resources */,
+				7E15490E203D716100FC79A1 /* PaintingAnswer30.mp3 in Resources */,
+				7E15495F203D717700FC79A1 /* PlayDohAnswer13.mp3 in Resources */,
+				7E154952203D717700FC79A1 /* PlayDohAnswer12.mp3 in Resources */,
+				7E154954203D717700FC79A1 /* PlayDohAnswer22.mp3 in Resources */,
+				7E1548D1203D714800FC79A1 /* HideSeekQuestion2.mp3 in Resources */,
+				7E1549FC203D71BE00FC79A1 /* SandpitQuestion3.mp3 in Resources */,
+				7E15498E203D719400FC79A1 /* PlaygroundAnswer61.mp3 in Resources */,
+				7E154915203D716100FC79A1 /* PaintingAnswer40.mp3 in Resources */,
+				7E15498C203D719400FC79A1 /* PlaygroundAnswer11.mp3 in Resources */,
+				7E1549C4203D71AA00FC79A1 /* RidingBikesAnswer40.mp3 in Resources */,
+				7E1549FE203D71BE00FC79A1 /* SandpitQuestion5.mp3 in Resources */,
+				7E1548D2203D714800FC79A1 /* HideSeekQuestion5.mp3 in Resources */,
+				7E154911203D716100FC79A1 /* PaintingQuestion2.mp3 in Resources */,
+				7E154A00203D71BE00FC79A1 /* SandpitQuestion1.mp3 in Resources */,
+				7E15491E203D716100FC79A1 /* PaintingAnswer12.mp3 in Resources */,
+				7E1548D5203D714800FC79A1 /* HideSeekAnswer62.mp3 in Resources */,
+				7E154A01203D71BE00FC79A1 /* SandpitAnswer41.mp3 in Resources */,
+				7E15490A203D716100FC79A1 /* PaintingAnswer10.mp3 in Resources */,
+				7E15491D203D716100FC79A1 /* PaintingAnswer41.mp3 in Resources */,
+				7E154995203D719400FC79A1 /* PlaygroundAnswer41.mp3 in Resources */,
+				7E1549BD203D71AA00FC79A1 /* RidingBikesAnswer41.mp3 in Resources */,
+				7E154945203D717700FC79A1 /* PlayDohAnswer42.mp3 in Resources */,
+				7E1549D5203D71AA00FC79A1 /* RidingBikesAnswer60.mp3 in Resources */,
+				7E1548E4203D714800FC79A1 /* HideSeekAnswer10.mp3 in Resources */,
+				7E1548E5203D714800FC79A1 /* HideSeekAnswer42.mp3 in Resources */,
+				7E1549BF203D71AA00FC79A1 /* RidingBikesAnswer23.mp3 in Resources */,
+				7EAFCEF320384EEF00001528 /* LaunchScreen.storyboard in Resources */,
+				7E154A0B203D71BE00FC79A1 /* SandpitQuestion6.mp3 in Resources */,
+				7E154990203D719400FC79A1 /* PlaygroundAnswer13.mp3 in Resources */,
+				7E154986203D719400FC79A1 /* PlaygroundQuestion4.mp3 in Resources */,
+				7E1549C6203D71AA00FC79A1 /* RidingBikesAnswer21.mp3 in Resources */,
+				7E154A0E203D71BE00FC79A1 /* SandpitAnswer23.mp3 in Resources */,
+				7E1549FF203D71BE00FC79A1 /* SandpitAnswer52.mp3 in Resources */,
+				7E15494C203D717700FC79A1 /* PlayDohQuestion4.mp3 in Resources */,
+				7E1548E1203D714800FC79A1 /* HideSeekQuestion1.mp3 in Resources */,
+				7E15491A203D716100FC79A1 /* PaintingAnswer50.mp3 in Resources */,
+				7E1548CF203D714800FC79A1 /* HideSeekAnswer61.mp3 in Resources */,
+				7E1549C2203D71AA00FC79A1 /* RidingBikesAnswer10.mp3 in Resources */,
+				7E1548CE203D714800FC79A1 /* HideSeekAnswer13.mp3 in Resources */,
+				7E154960203D717700FC79A1 /* PlayDohAnswer50.mp3 in Resources */,
+				7E154951203D717700FC79A1 /* PlayDohAnswer52.mp3 in Resources */,
+				7E154981203D719400FC79A1 /* PlaygroundAnswer53.mp3 in Resources */,
+				7E15495D203D717700FC79A1 /* PlayDohAnswer33.mp3 in Resources */,
+				7E154A09203D71BE00FC79A1 /* SandpitAnswer62.mp3 in Resources */,
+				7E154A05203D71BE00FC79A1 /* SandpitAnswer61.mp3 in Resources */,
+				7E1548CD203D714800FC79A1 /* HideSeekAnswer30.mp3 in Resources */,
+				7E1549CC203D71AA00FC79A1 /* RidingBikesAnswer20.mp3 in Resources */,
+				7E15499C203D719400FC79A1 /* PlaygroundAnswer10.mp3 in Resources */,
+				7E154998203D719400FC79A1 /* PlaygroundAnswer40.mp3 in Resources */,
+				7E154953203D717700FC79A1 /* PlayDohAnswer23.mp3 in Resources */,
+				7E1548D3203D714800FC79A1 /* HideSeekQuestion3.mp3 in Resources */,
+				7EAFCEF020384EEF00001528 /* Assets.xcassets in Resources */,
+				7E1549C8203D71AA00FC79A1 /* RidingBikesAnswer42.mp3 in Resources */,
+				7E154A10203D71BE00FC79A1 /* SandpitAnswer42.mp3 in Resources */,
+				7E154917203D716100FC79A1 /* PaintingAnswer51.mp3 in Resources */,
+				7E15498A203D719400FC79A1 /* PlaygroundQuestion2.mp3 in Resources */,
+				7E154A02203D71BE00FC79A1 /* SandpitAnswer30.mp3 in Resources */,
+				7E154A08203D71BE00FC79A1 /* SandpitAnswer43.mp3 in Resources */,
+				7E154994203D719400FC79A1 /* PlaygroundQuestion1.mp3 in Resources */,
+				7E154A04203D71BE00FC79A1 /* SandpitAnswer40.mp3 in Resources */,
+				7E15498D203D719400FC79A1 /* PlaygroundAnswer20.mp3 in Resources */,
+				7E1549FB203D71BE00FC79A1 /* SandpitAnswer60.mp3 in Resources */,
+				7E154999203D719400FC79A1 /* PlaygroundAnswer52.mp3 in Resources */,
+				7E1549D1203D71AA00FC79A1 /* RidingBikesAnswer61.mp3 in Resources */,
+				7E1549DA203D71AA00FC79A1 /* RidingBikesAnswer31.mp3 in Resources */,
+				7E154991203D719400FC79A1 /* PlaygroundAnswer21.mp3 in Resources */,
+				7E154A07203D71BE00FC79A1 /* SandpitQuestion4.mp3 in Resources */,
+				7E154962203D717700FC79A1 /* PlayDohQuestion2.mp3 in Resources */,
+				7E154959203D717700FC79A1 /* PlayDohQuestion3.mp3 in Resources */,
+				7E154924203D716100FC79A1 /* PaintingAnswer11.mp3 in Resources */,
+				7E1548E8203D714800FC79A1 /* HideSeekQuestion4.mp3 in Resources */,
+				7E1548E0203D714800FC79A1 /* HideSeekAnswer12.mp3 in Resources */,
+				7E1549CB203D71AA00FC79A1 /* RidingBikesQuestion5.mp3 in Resources */,
+				7E1548A9203D6D4100FC79A1 /* WellDoneOption1.mp3 in Resources */,
+				7E1549D6203D71AA00FC79A1 /* RidingBikesAnswer63.mp3 in Resources */,
+				7E15495B203D717700FC79A1 /* PlayDohAnswer30.mp3 in Resources */,
+				7E154925203D716100FC79A1 /* PaintingAnswer22.mp3 in Resources */,
+				7E154987203D719400FC79A1 /* PlaygroundAnswer30.mp3 in Resources */,
+				7E1548DC203D714800FC79A1 /* HideSeekAnswer50.mp3 in Resources */,
+				7E154955203D717700FC79A1 /* PlayDohAnswer21.mp3 in Resources */,
+				7E1548E7203D714800FC79A1 /* HideSeekAnswer40.mp3 in Resources */,
+				7E1549BE203D71AA00FC79A1 /* RidingBikesAnswer13.mp3 in Resources */,
+				7E1549C7203D71AA00FC79A1 /* RidingBikesAnswer33.mp3 in Resources */,
+				7E154919203D716100FC79A1 /* PaintingAnswer42.mp3 in Resources */,
+				7EAFCEEE20384EEF00001528 /* Main.storyboard in Resources */,
+				7E1549FD203D71BE00FC79A1 /* SandpitAnswer20.mp3 in Resources */,
+				7E15494A203D717700FC79A1 /* PlayDohAnswer63.mp3 in Resources */,
+				7E15494D203D717700FC79A1 /* PlayDohAnswer32.mp3 in Resources */,
+				7E154956203D717700FC79A1 /* PlayDohAnswer43.mp3 in Resources */,
+				7E15495A203D717700FC79A1 /* PlayDohQuestion6.mp3 in Resources */,
+				7E1548EA203D714800FC79A1 /* HideSeekAnswer60.mp3 in Resources */,
+				7E154984203D719400FC79A1 /* PlaygroundQuestion3.mp3 in Resources */,
+				7E15499E203D719400FC79A1 /* PlaygroundAnswer63.mp3 in Resources */,
+				7E15490C203D716100FC79A1 /* PaintingAnswer60.mp3 in Resources */,
+				7E1549D4203D71AA00FC79A1 /* RidingBikesAnswer62.mp3 in Resources */,
+				7E1548D6203D714800FC79A1 /* HideSeekAnswer53.mp3 in Resources */,
+				7E15491C203D716100FC79A1 /* PaintingAnswer53.mp3 in Resources */,
+				7E15486B203C303900FC79A1 /* MenuAudio.mp3 in Resources */,
+				7E15491B203D716100FC79A1 /* PaintingAnswer43.mp3 in Resources */,
+				7E154A16203D71BE00FC79A1 /* SandpitAnswer51.mp3 in Resources */,
+				7E154993203D719400FC79A1 /* PlaygroundAnswer60.mp3 in Resources */,
+				7E154A0C203D71BE00FC79A1 /* SandpitAnswer21.mp3 in Resources */,
+				7E15498F203D719400FC79A1 /* PlaygroundAnswer43.mp3 in Resources */,
+				7E15499D203D719400FC79A1 /* PlaygroundAnswer23.mp3 in Resources */,
+				7E154923203D716100FC79A1 /* PaintingAnswer21.mp3 in Resources */,
+				7E1549F9203D71BE00FC79A1 /* SandpitAnswer13.mp3 in Resources */,
+				7E154985203D719400FC79A1 /* PlaygroundQuestion6.mp3 in Resources */,
+				7E1549C5203D71AA00FC79A1 /* RidingBikesAnswer32.mp3 in Resources */,
+				7E154910203D716100FC79A1 /* PaintingAnswer52.mp3 in Resources */,
+				7E154947203D717700FC79A1 /* PlayDohAnswer10.mp3 in Resources */,
+				7E1549CA203D71AA00FC79A1 /* RidingBikesQuestion4.mp3 in Resources */,
+				7E154A15203D71BE00FC79A1 /* SandpitAnswer32.mp3 in Resources */,
+				7E1548D0203D714800FC79A1 /* HideSeekAnswer63.mp3 in Resources */,
+				7E1548D9203D714800FC79A1 /* HideSeekAnswer20.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EAFCEE120384EEF00001528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EAFCEEB20384EEF00001528 /* ViewController.swift in Sources */,
+				7E337817203AC4DD00BA32A2 /* DataInput.swift in Sources */,
+				7E337815203AC1CE00BA32A2 /* ArrayStructure.swift in Sources */,
+				7EAFCEE920384EEF00001528 /* AppDelegate.swift in Sources */,
+				7E154868203C20FC00FC79A1 /* PlayMusic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EAFCEEC20384EEF00001528 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EAFCEED20384EEF00001528 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EAFCEF120384EEF00001528 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EAFCEF220384EEF00001528 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EAFCEF520384EEF00001528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EAFCEF620384EEF00001528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EAFCEF820384EEF00001528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MasterSocialSkillsPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MasterSocialSkills.MasterSocialSkillsPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EAFCEF920384EEF00001528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MasterSocialSkillsPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MasterSocialSkills.MasterSocialSkillsPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EAFCEE020384EEF00001528 /* Build configuration list for PBXProject "MasterSocialSkillsPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EAFCEF520384EEF00001528 /* Debug */,
+				7EAFCEF620384EEF00001528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EAFCEF720384EEF00001528 /* Build configuration list for PBXNativeTarget "MasterSocialSkillsPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EAFCEF820384EEF00001528 /* Debug */,
+				7EAFCEF920384EEF00001528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EAFCEDD20384EEF00001528 /* Project object */;
+}
