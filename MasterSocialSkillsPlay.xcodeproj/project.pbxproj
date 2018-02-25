@@ -200,6 +200,7 @@
 		7EAFCEEE20384EEF00001528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAFCEEC20384EEF00001528 /* Main.storyboard */; };
 		7EAFCEF020384EEF00001528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EAFCEEF20384EEF00001528 /* Assets.xcassets */; };
 		7EAFCEF320384EEF00001528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAFCEF120384EEF00001528 /* LaunchScreen.storyboard */; };
+		7EE5C6522042673F000D5636 /* InfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE5C6512042673F000D5636 /* InfoScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -398,6 +399,7 @@
 		7EAFCEEF20384EEF00001528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EAFCEF220384EEF00001528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EAFCEF420384EEF00001528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EE5C6512042673F000D5636 /* InfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -617,6 +619,7 @@
 			isa = PBXGroup;
 			children = (
 				7EAFCEEA20384EEF00001528 /* ViewController.swift */,
+				7EE5C6512042673F000D5636 /* InfoScreen.swift */,
 				7E154867203C20FC00FC79A1 /* PlayMusic.swift */,
 			);
 			path = Control;
@@ -920,6 +923,7 @@
 				7EAFCEEB20384EEF00001528 /* ViewController.swift in Sources */,
 				7E337817203AC4DD00BA32A2 /* DataInput.swift in Sources */,
 				7E337815203AC1CE00BA32A2 /* ArrayStructure.swift in Sources */,
+				7EE5C6522042673F000D5636 /* InfoScreen.swift in Sources */,
 				7EAFCEE920384EEF00001528 /* AppDelegate.swift in Sources */,
 				7E154868203C20FC00FC79A1 /* PlayMusic.swift in Sources */,
 			);
