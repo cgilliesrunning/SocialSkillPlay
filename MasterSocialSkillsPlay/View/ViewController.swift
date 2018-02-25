@@ -57,15 +57,13 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
 
     @IBAction func SceneSelectionButtons(_ sender: UIButton) {
         
-        if sender.tag == 1{
+        if sender.tag == 1 {
           aa = "painting"
             }
-        else if sender.tag == 2{
+        else if sender.tag == 2 {
             aa = "playdoh"
         }
-        
-        performSegue(withIdentifier: "goToSceneSelectionScreen", sender: self)
-        
+        performSegue(withIdentifier: "goToModeSelectionScreen", sender: self)
     }
     
     

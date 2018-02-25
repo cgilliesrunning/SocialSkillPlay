@@ -52,7 +52,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Painting" image="2-menu-painting-on"/>
                                 <connections>
-                                    <segue destination="6IU-l3-HLD" kind="show" identifier="goToModeSelectionScreen" id="CzV-gt-fEt"/>
+                                    <action selector="SceneSelectionButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CuD-Lt-did"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6k-aU-djt">
@@ -73,6 +73,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="6IU-l3-HLD" kind="show" identifier="goToModeSelectionScreen" id="h70-A0-YbB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -81,7 +84,7 @@
         <!--Mode Selection-->
         <scene sceneID="q11-aD-54C">
             <objects>
-                <viewController title="Mode Selection" id="6IU-l3-HLD" customClass="ModeSelectionScreen" sceneMemberID="viewController">
+                <viewController title="Mode Selection" id="6IU-l3-HLD" customClass="ModeSelectionScreen" customModule="MasterSocialSkillsPlay" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L3O-0X-GZQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -90,7 +93,7 @@
                                 <rect key="frame" x="93" y="92" width="189" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5d-T1-y6Y">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5d-T1-y6Y">
                                 <rect key="frame" x="79" y="355" width="167" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">

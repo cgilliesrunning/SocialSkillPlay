@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PaintingSelectionScreen: UIViewController {
+class ModeSelectionScreen: UIViewController {
     
     var sceneSelection : String = ""
     var finalArray = BuildRandomArrays(Selection: "Sandpit")
