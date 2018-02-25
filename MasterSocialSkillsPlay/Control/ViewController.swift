@@ -16,19 +16,10 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     var questionState : Bool = true
     var count = 0
     var aa = ""
-//    var finalArray = BuildRandomArrays(Selection: "Sandpit")
-    
-    
-    // call the build array function - returns any array with the 6 question, respective answers and the question and answer text
-//    let finalArray = BuildRandomArrays(Selection: sceneSelection)
-//    let sceneSelection = "Sandpit" // used to capture the selection scene
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         count = 0
-//        let sceneSelection = "Sandpit"
-//        finalArray = BuildRandomArrays(Selection: sceneSelection) // call the build array function
         makeNoise(Selection: "MenuAudio")
         
     }

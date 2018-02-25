@@ -10,8 +10,6 @@ import Foundation
 import GameplayKit
 
 
-
-
 class BuildRandomArrays {
     
     var list = [ArrayStructure]()
@@ -29,8 +27,6 @@ class BuildRandomArrays {
         
         let shuffledAnswers = [shuffledAnswers1[0],shuffledAnswers2[0],shuffledAnswers3[0],shuffledAnswers4[0],shuffledAnswers5[0],shuffledAnswers6[0]]
         
-        
-        
         list.append(ArrayStructure(scene: Selection, question: shuffledQuestions[0], answer: shuffledAnswers[0], qText: "question string1", aText: "answer string1"))
         list.append(ArrayStructure(scene: Selection,question: shuffledQuestions[1], answer: shuffledAnswers[1], qText: "question string2", aText: "answer string2"))
         list.append(ArrayStructure(scene: Selection,question: shuffledQuestions[2], answer: shuffledAnswers[2], qText: "question string3", aText: "answer string3"))
@@ -38,15 +34,5 @@ class BuildRandomArrays {
         list.append(ArrayStructure(scene: Selection,question: shuffledQuestions[4], answer: shuffledAnswers[4], qText: "question string5", aText: "answer string5"))
         list.append(ArrayStructure(scene: Selection,question: shuffledQuestions[5], answer: shuffledAnswers[5], qText: "question string6", aText: "answer string6"))
         
-        
-
-
     }
-
-    
 }
-    
-
-    
-
-

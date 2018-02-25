@@ -1,5 +1,5 @@
 //
-//  PaintingSelectionScreen.swift
+//  InfoScreen.swift
 //  MasterSocialSkillsPlay
 //
 //  Created by Cameron on 25/2/18.
@@ -8,15 +8,10 @@
 
 import UIKit
 
-class ModeSelectionScreen: UIViewController {
-    
-    var sceneSelection : String = ""
-    var finalArray = BuildRandomArrays(Selection: "Sandpit")
-    
+class InfoScreen: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print (sceneSelection)
 
         // Do any additional setup after loading the view.
     }
@@ -26,9 +21,9 @@ class ModeSelectionScreen: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func ReturnToHome(_ sender: Any) {
+    @IBAction func goToHome(_ sender: Any) {
         
-        self.dismiss(animated: true, completion: nil)
+        self.dismiss(animated: true, completion: nil) 
     }
     
     /*
@@ -41,4 +36,7 @@ class ModeSelectionScreen: UIViewController {
     }
     */
 
+    
+
+    
 }
