@@ -9,32 +9,23 @@
 import UIKit
 import AVFoundation
 
+var sceneSelection = ""
+var learningMode : String = ""
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
 
     var audioPlayer : AVAudioPlayer!
     var questionState : Bool = true
     var count = 0
-    var aa = ""
+    var aaaaaa = MakeMusicClass.init()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         count = 0
-        makeNoise(Selection: "MenuAudio")
+        aaaaaa.makeNoise(Selection: "MenuAudio")
         
     }
     
-    func makeNoise(Selection: String) { //play the selected media play
-        let soundURL = Bundle.main.url(forResource: Selection, withExtension: "mp3")
-        do {
-//            print (soundURL)
-            try audioPlayer = AVAudioPlayer(contentsOf: soundURL!)
-            audioPlayer.play()
-        }
-        catch {
-            print (error)
-        }
-    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -49,10 +40,10 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBAction func SceneSelectionButtons(_ sender: UIButton) {
         
         if sender.tag == 1 {
-          aa = "painting"
+          sceneSelection = "painting"
             }
         else if sender.tag == 2 {
-            aa = "playdoh"
+            sceneSelection = "playdoh"
         }
         performSegue(withIdentifier: "goToModeSelectionScreen", sender: self)
     }
@@ -61,7 +52,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
 //    @IBAction func Question(_ sender: UIButton) {
 //
 //        let sceneSelection = "Sandpit"
-////        let finalArray = BuildRandomArrays(Selection: sceneSelection) // call the build array function
+//        let finalArray = BuildRandomArrays(Selection: sceneSelection) // call the build array function
 //
 //        if count < 6 {
 //
@@ -81,18 +72,17 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
 //            }
 //        else if count == 6 {
 //            viewDidLoad()
-//
 //        }
 //
 //}
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "goToModeSelectionScreen" {
-            let destinationVC = segue.destination as! ModeSelectionScreen
-            destinationVC.sceneSelection = aa
-            
-        }
-        
-    }
+//
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "goToModeSelectionScreen" {
+//            let destinationVC = segue.destination as! ModeSelectionScreen
+//            destinationVC.sceneSelection = aa
+//
+//        }
+//
+//    }
     
 }

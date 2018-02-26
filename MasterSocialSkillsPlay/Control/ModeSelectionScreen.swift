@@ -10,18 +10,9 @@ import UIKit
 
 class ModeSelectionScreen: UIViewController {
     
-    var sceneSelection : String = ""
-    var learningMode : String = ""
-    
-//    let buildArray = BuildRandomArrays(Selection: sceneSelection)
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         print (sceneSelection)
-//        let finalArray = BuildRandomArrays(Selection: sceneSelection)
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,12 +36,11 @@ class ModeSelectionScreen: UIViewController {
         performSegue(withIdentifier: "MoveToLearningMode", sender: self)
     }
     
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "MoveToLearningMode" {
             let destinationVC = segue.destination as! primaryLearningScreen
             destinationVC.modeSelection = learningMode
-            destinationVC.sceneSelection2 = sceneSelection
+            destinationVC.sceneSelection = sceneSelection
         }
     }
     

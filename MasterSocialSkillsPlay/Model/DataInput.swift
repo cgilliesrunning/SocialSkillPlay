@@ -13,8 +13,9 @@ import GameplayKit
 class BuildRandomArrays {
     
     var list = [ArrayStructure]()
+    var Selection = sceneSelection
     
-    init (Selection: String){
+    init (){
 
         let shuffledQuestions  = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: [1,2,3,4,5,6]) as! [Int]
         

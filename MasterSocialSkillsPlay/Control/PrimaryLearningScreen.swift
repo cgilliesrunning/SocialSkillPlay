@@ -14,27 +14,20 @@ class primaryLearningScreen: UIViewController {
     var count = 0
     var audioPlayer : AVAudioPlayer!
     var questionState : Bool = true
-    var sceneSelection2 = ""
+    var sceneSelection = ""
     var modeSelection = ""
-    
-    
-    @IBAction func returnToHome(_ sender: Any) {
-        
-              self.dismiss(animated: true, completion: nil)
-    }
-    
+    let abcde = BuildRandomArrays()
+
     @IBOutlet weak var modeSelected: UILabel!
     @IBOutlet weak var sceneSelected: UILabel!
+    @IBAction func goBack(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         modeSelected.text = modeSelection
-        sceneSelected.text = sceneSelection2
-        print (sceneSelection2)
-        print (modeSelection)
-
-        // Do any additional setup after loading the view.
+        sceneSelected.text = sceneSelection
     }
     
 

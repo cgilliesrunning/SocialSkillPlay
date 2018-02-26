@@ -128,6 +128,28 @@
                                     <action selector="modeSelectionButton:" destination="6IU-l3-HLD" eventType="touchUpInside" id="uq2-DN-ufO"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOQ-Yi-n67">
+                                <rect key="frame" x="79" y="451" width="167" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" image="practice-on"/>
+                                <connections>
+                                    <action selector="modeSelectionButton:" destination="6IU-l3-HLD" eventType="touchUpInside" id="yPe-55-pYh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okP-DK-a8a">
+                                <rect key="frame" x="79" y="354" width="167" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" image="play-on"/>
+                                <connections>
+                                    <action selector="modeSelectionButton:" destination="6IU-l3-HLD" eventType="touchUpInside" id="3IZ-75-J5d"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="4Rq-0o-VUa"/>
@@ -165,12 +187,13 @@
                                 </state>
                                 <connections>
                                     <action selector="ReturnToHome:" destination="6IU-l3-HLD" eventType="touchUpInside" id="gLu-bs-Xtm"/>
+                                    <action selector="goBack:" destination="wJw-eW-qeh" eventType="touchUpInside" id="o0r-NZ-sXC"/>
                                     <action selector="goToHome:" destination="tCp-AK-jfr" eventType="touchUpInside" id="G9w-LV-Dh4"/>
                                     <action selector="returnToHome:" destination="wJw-eW-qeh" eventType="touchUpInside" id="jvz-0g-qT8"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mode Selected" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aln-Dh-MIk">
-                                <rect key="frame" x="87" y="114" width="195" height="131"/>
+                                <rect key="frame" x="87" y="181" width="195" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -181,8 +204,8 @@
                         <viewLayoutGuide key="safeArea" id="kBT-8r-9Ug"/>
                     </view>
                     <connections>
-                        <outlet property="modeSelected" destination="Aln-Dh-MIk" id="p12-4S-H9Z"/>
-                        <outlet property="sceneSelected" destination="3sO-a6-4dU" id="LOa-uM-c5Q"/>
+                        <outlet property="modeSelected" destination="Aln-Dh-MIk" id="uRz-Zp-yNe"/>
+                        <outlet property="sceneSelected" destination="3sO-a6-4dU" id="5K8-6E-rLq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="05Y-Ld-BFd" userLabel="First Responder" sceneMemberID="firstResponder"/>
