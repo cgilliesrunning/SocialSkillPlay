@@ -41,6 +41,7 @@ class ModeSelectionScreen: UIViewController {
             let destinationVC = segue.destination as! primaryLearningScreen
             destinationVC.modeSelection = learningMode
             destinationVC.sceneSelection = sceneSelection
+            
         }
     }
     

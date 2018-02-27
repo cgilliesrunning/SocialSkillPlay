@@ -39,49 +39,12 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBAction func SceneSelectionButtons(_ sender: UIButton) {
         
         if sender.tag == 1 {
-          sceneSelection = "painting"
+          sceneSelection = "Painting"
             }
         else if sender.tag == 2 {
-            sceneSelection = "playdoh"
+            sceneSelection = "Playdoh"
         }
         performSegue(withIdentifier: "goToModeSelectionScreen", sender: self)
     }
-    
-    
-//    @IBAction func Question(_ sender: UIButton) {
-//
-//        let sceneSelection = "Sandpit"
-//        let finalArray = BuildRandomArrays(Selection: sceneSelection) // call the build array function
-//
-//        if count < 6 {
-//
-//            if questionState == true {
-//                print ("you are up to question number: \(count) = \(finalArray.list[count].questionNumber)")
-//                let soundFileNameInput = sceneSelection+"Question"+String(finalArray.list[count].questionNumber)
-//                makeNoise(Selection: soundFileNameInput)
-//                questionState = !questionState
-//            }
-//            else if questionState == false {
-//                print ("you are up to answer number: \(count) = \(finalArray.list[count].answerNumber)")
-//                let soundFileNameInput = sceneSelection+"Answer"+String(finalArray.list[count].answerNumber)
-//                makeNoise(Selection: soundFileNameInput)
-//                count += 1
-//                questionState = !questionState
-//                }
-//            }
-//        else if count == 6 {
-//            viewDidLoad()
-//        }
-//
-//}
-//
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "goToModeSelectionScreen" {
-//            let destinationVC = segue.destination as! ModeSelectionScreen
-//            destinationVC.sceneSelection = aa
-//
-//        }
-//
-//    }
     
 }

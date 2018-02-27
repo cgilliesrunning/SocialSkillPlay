@@ -24,5 +24,9 @@ class MakeMusicClass : NSObject, AVAudioPlayerDelegate {
             print (error)
             }
         }
+    
+    func stopNoise () {
+        audioPlayer.stop()
+    }
 }
 
