@@ -10,6 +10,8 @@ import UIKit
 
 class ModeSelectionScreen: UIViewController {
     
+    var bbbbbb = MakeMusicClass.init()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print (sceneSelection)
@@ -41,7 +43,7 @@ class ModeSelectionScreen: UIViewController {
             let destinationVC = segue.destination as! primaryLearningScreen
             destinationVC.modeSelection = learningMode
             destinationVC.sceneSelection = sceneSelection
-            
+            bbbbbb.stopNoise()
         }
     }
     

@@ -26,7 +26,13 @@ class MakeMusicClass : NSObject, AVAudioPlayerDelegate {
         }
     
     func stopNoise () {
-        audioPlayer.stop()
+        let soundURL = Bundle.main.url(forResource: "MenuAudio", withExtension: "mp3")
+        do {
+            try audioPlayer = AVAudioPlayer(contentsOf: soundURL!)
+            audioPlayer.stop()
+        }
+        catch {
+            print (error)
+        }
     }
 }
-
