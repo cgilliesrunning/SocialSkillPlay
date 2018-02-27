@@ -33,10 +33,9 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
 
   // info screen button
-    @IBAction func InfoScreen(_ sender: Any) {
-        }
+    @IBAction func InfoScreen(_ sender: Any) {}
     
-
+    @IBAction func unwindSequeToHome (seque: UIStoryboardSegue) {}
     @IBAction func SceneSelectionButtons(_ sender: UIButton) {
         
         if sender.tag == 1 {

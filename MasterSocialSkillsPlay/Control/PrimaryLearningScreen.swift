@@ -20,9 +20,9 @@ class primaryLearningScreen: UIViewController {
 
     @IBOutlet weak var modeSelected: UILabel!
     @IBOutlet weak var sceneSelected: UILabel!
-    @IBAction func goBack(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
+
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

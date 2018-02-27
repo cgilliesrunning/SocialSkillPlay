@@ -114,7 +114,6 @@
                                 </state>
                                 <connections>
                                     <action selector="ReturnToHome:" destination="6IU-l3-HLD" eventType="touchUpInside" id="uZS-e3-WLB"/>
-                                    <action selector="goToHome:" destination="tCp-AK-jfr" eventType="touchUpInside" id="AhZ-TV-BMY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5d-T1-y6Y">
@@ -186,10 +185,7 @@
                                     <color key="titleColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="ReturnToHome:" destination="6IU-l3-HLD" eventType="touchUpInside" id="gLu-bs-Xtm"/>
-                                    <action selector="goBack:" destination="wJw-eW-qeh" eventType="touchUpInside" id="o0r-NZ-sXC"/>
-                                    <action selector="goToHome:" destination="tCp-AK-jfr" eventType="touchUpInside" id="G9w-LV-Dh4"/>
-                                    <action selector="returnToHome:" destination="wJw-eW-qeh" eventType="touchUpInside" id="jvz-0g-qT8"/>
+                                    <segue destination="usY-s7-jyf" kind="unwind" unwindAction="unwindSequeToHomeWithSeque:" id="P8v-Zq-mVb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mode Selected" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aln-Dh-MIk">
@@ -209,6 +205,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="05Y-Ld-BFd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="usY-s7-jyf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3516" y="187.55622188905548"/>
         </scene>
