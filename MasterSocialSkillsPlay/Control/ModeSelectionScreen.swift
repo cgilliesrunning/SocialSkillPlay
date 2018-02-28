@@ -15,6 +15,25 @@ class ModeSelectionScreen: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print (sceneSelection)
+        
+        if sceneSelection == "Painting" {
+            ModeSelectionScreenSceneImage.image = UIImage(named: "menu-painting")
+        }
+        else if sceneSelection == "PlayDoh" {
+            ModeSelectionScreenSceneImage.image = UIImage(named: "menu-playdoh")
+        }
+        else if sceneSelection == "Playground" {
+            ModeSelectionScreenSceneImage.image = UIImage(named: "menu-playground")
+        }
+        else if sceneSelection == "RidingBikes"  {
+            ModeSelectionScreenSceneImage.image = UIImage(named: "menu-ridingbikes")
+        }
+        else if sceneSelection == "Sandpit"  {
+            ModeSelectionScreenSceneImage.image = UIImage(named: "menu-sandpit")
+        }
+        else if sceneSelection == "HideSeek" {
+            ModeSelectionScreenSceneImage.image = UIImage(named: "menu-hideseek")
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,5 +65,6 @@ class ModeSelectionScreen: UIViewController {
             bbbbbb.stopNoise()
         }
     }
+    @IBOutlet weak var ModeSelectionScreenSceneImage: UIImageView!
     
 }

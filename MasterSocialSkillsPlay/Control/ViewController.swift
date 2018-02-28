@@ -7,15 +7,15 @@
 //
 
 import UIKit
-import AVFoundation
+//import AVFoundation
 
 var sceneSelection = ""
 var learningMode : String = ""
 
-class ViewController: UIViewController, AVAudioPlayerDelegate {
+class ViewController: UIViewController {
 
-    var audioPlayer : AVAudioPlayer!
-    var questionState : Bool = true
+//    var audioPlayer : AVAudioPlayer!
+//    var questionState : Bool = true
     var count = 0
     var aaaaaa = MakeMusicClass.init()
     
@@ -23,9 +23,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         super.viewDidLoad()
         count = 0
         aaaaaa.makeNoise(Selection: "MenuAudio")
-        
     }
-    
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -35,14 +34,29 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
   // info screen button
     @IBAction func InfoScreen(_ sender: Any) {}
     
-    @IBAction func unwindSequeToHome (seque: UIStoryboardSegue) {}
+    @IBAction func unwindSequeToHome (seque: UIStoryboardSegue) {
+        viewDidLoad()
+    }
+    
     @IBAction func SceneSelectionButtons(_ sender: UIButton) {
         
         if sender.tag == 1 {
           sceneSelection = "Painting"
             }
         else if sender.tag == 2 {
-            sceneSelection = "Playdoh"
+            sceneSelection = "PlayDoh"
+        }
+        else if sender.tag == 3 {
+            sceneSelection = "Playground"
+        }
+        else if sender.tag == 4 {
+            sceneSelection = "RidingBikes"
+        }
+        else if sender.tag == 5 {
+            sceneSelection = "Sandpit"
+        }
+        else if sender.tag == 6 {
+            sceneSelection = "HideSeek"
         }
         performSegue(withIdentifier: "goToModeSelectionScreen", sender: self)
     }

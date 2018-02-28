@@ -29,6 +29,7 @@ class MakeMusicClass : NSObject, AVAudioPlayerDelegate {
         let soundURL = Bundle.main.url(forResource: "MenuAudio", withExtension: "mp3")
         do {
             try audioPlayer = AVAudioPlayer(contentsOf: soundURL!)
+            print ("zzzzzzzzzzzzzzzz")
             audioPlayer.stop()
         }
         catch {
