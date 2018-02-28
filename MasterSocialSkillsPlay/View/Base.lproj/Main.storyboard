@@ -55,7 +55,7 @@
                                     <action selector="SceneSelectionButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CuD-Lt-did"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6k-aU-djt">
+                            <button opaque="NO" tag="2" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6k-aU-djt">
                                 <rect key="frame" x="200" y="183" width="131" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="playdoh" image="menu-playdoh"/>
@@ -87,10 +87,10 @@
                                     <action selector="SceneSelectionButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wGe-Jy-cZ6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4A-9G-GMY">
+                            <button opaque="NO" tag="6" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4A-9G-GMY">
                                 <rect key="frame" x="200" y="481" width="135" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="hideseek-on"/>
+                                <state key="normal" title="Button" image="menu-hideseek"/>
                                 <connections>
                                     <action selector="SceneSelectionButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dpg-8y-g93"/>
                                 </connections>
@@ -111,7 +111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1988" y="195.6521739130435"/>
+            <point key="canvasLocation" x="-316" y="224"/>
         </scene>
         <!--Mode Selection-->
         <scene sceneID="q11-aD-54C">
@@ -121,7 +121,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2-menu-painting-on" translatesAutoresizingMaskIntoConstraints="NO" id="vPt-cD-bN7">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu-hideseek" translatesAutoresizingMaskIntoConstraints="NO" id="vPt-cD-bN7">
                                 <rect key="frame" x="93" y="92" width="189" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -192,7 +192,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KVZ-q4-GSS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2765.5999999999999" y="192.95352323838082"/>
+            <point key="canvasLocation" x="462" y="222"/>
         </scene>
         <!--LeaningScreen-->
         <scene sceneID="U20-cm-aMk">
@@ -257,7 +257,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="05Y-Ld-BFd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="usY-s7-jyf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3516" y="187.55622188905548"/>
+            <point key="canvasLocation" x="1212" y="216"/>
         </scene>
         <!--Info Screen-->
         <scene sceneID="hen-vp-YSn">
@@ -326,13 +326,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9XU-6f-ihc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1988" y="900.89955022488766"/>
+            <point key="canvasLocation" x="-316" y="930"/>
         </scene>
     </scenes>
     <resources>
-        <image name="2-menu-painting-on" width="189" height="213"/>
         <image name="HomeScreen" width="375" height="667"/>
-        <image name="hideseek-on" width="184" height="200"/>
+        <image name="menu-hideseek" width="184" height="200"/>
         <image name="menu-painting" width="189" height="213"/>
         <image name="menu-playdoh" width="200" height="209"/>
         <image name="menu-playground" width="209" height="224"/>
