@@ -14,6 +14,15 @@ class BuildRandomArrays {
     
     var list = [ArrayStructure]()
     let Selection = sceneSelection
+
+    var arrayReference = 0
+    
+    let array1 = [10,11,12,13]
+    let array2 = [20,21,22,23]
+    let array3 = [30,31,32,33]
+    let array4 = [40,41,42,43]
+    let array5 = [50,51,52,53]
+    let array6 = [60,61,62,63]
     
     let playgroundQuestionDictionary = [1 : "Let’s go down the slide",
                                       2 : "Do you want to play on the swings?",
@@ -56,10 +65,6 @@ class BuildRandomArrays {
                                       4 : "Let’s stop for a drink",
                                       5 : "Where do you want to ride your bike?",
                                       6 : "I’m going to ring my bell"]
-    
-
-    
-    
 
     let playgroundAnswerDictionary = [10 : "That sounds like fun",
                                     11 : "Ok, let's see who can go the fastest",
@@ -215,18 +220,23 @@ let hideSeekAnswerDictionary = [    10 : "I love hide and seek, let’s play",
     
     init (){
         
+        var answerOne : Int = 0
+        var answerTwo : Int = 0
+        var answerThree : Int = 0
+        var answerFour : Int = 0
+        var answerFive : Int = 0
+        var answerSix : Int = 0
         
-
         let shuffledQuestions  = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: [1,2,3,4,5,6]) as! [Int]
         
-        let shuffledAnswers1 : [Int] = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: [10,11,12,13]) as! [Int]
-        let shuffledAnswers2 : [Int] = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: [20,21,22,23]) as! [Int]
-        let shuffledAnswers3 : [Int] = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: [30,31,32,33]) as! [Int]
-        let shuffledAnswers4 : [Int] = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: [40,41,42,43]) as! [Int]
-        let shuffledAnswers5 : [Int] = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: [50,51,52,53]) as! [Int]
-        let shuffledAnswers6 : [Int] = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: [60,61,62,63]) as! [Int]
+//        let shuffledAnswers1 : [Int] = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: [10,11,12,13]) as! [Int]
+//        let shuffledAnswers2 : [Int] = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: [20,21,22,23]) as! [Int]
+//        let shuffledAnswers3 : [Int] = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: [30,31,32,33]) as! [Int]
+//        let shuffledAnswers4 : [Int] = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: [40,41,42,43]) as! [Int]
+//        let shuffledAnswers5 : [Int] = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: [50,51,52,53]) as! [Int]
+//        let shuffledAnswers6 : [Int] = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: [60,61,62,63]) as! [Int]
         
-        let shuffledAnswers = [shuffledAnswers1[0],shuffledAnswers2[0],shuffledAnswers3[0],shuffledAnswers4[0],shuffledAnswers5[0],shuffledAnswers6[0]]
+//        let shuffledAnswers = [shuffledAnswers1[0],shuffledAnswers2[0],shuffledAnswers3[0],shuffledAnswers4[0],shuffledAnswers5[0],shuffledAnswers6[0]]
         
         let questionOne = shuffledQuestions[0]
         let questionTwo = shuffledQuestions[1]
@@ -234,13 +244,165 @@ let hideSeekAnswerDictionary = [    10 : "I love hide and seek, let’s play",
         let questionFour = shuffledQuestions[3]
         let questionFive = shuffledQuestions[4]
         let questionSix = shuffledQuestions[5]
+    
+        if shuffledQuestions[0] == 1 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerOne = array1[arrayReference]
+        }
+        else if shuffledQuestions[0] == 2 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerOne = array2[arrayReference]
+        }
+        else if shuffledQuestions[0] == 3 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerOne = array3[arrayReference]
+        }
+        else if shuffledQuestions[0] == 4 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerOne = array4[arrayReference]
+        }
+        else if shuffledQuestions[0] == 5 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerOne = array5[arrayReference]
+        }
+        else if shuffledQuestions[0] == 6 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerOne = array6[arrayReference]
+        }
         
-        let answerOne = shuffledAnswers[0]
-        let answerTwo = shuffledAnswers[1]
-        let answerThree = shuffledAnswers[2]
-        let answerFour = shuffledAnswers[3]
-        let answerFive = shuffledAnswers[4]
-        let answerSix = shuffledAnswers[5]
+        if shuffledQuestions[1] == 1 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerTwo = array1[arrayReference]
+        }
+        else if shuffledQuestions[1] == 2 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerTwo = array2[arrayReference]
+        }
+        else if shuffledQuestions[1] == 3 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerTwo = array3[arrayReference]
+        }
+        else if shuffledQuestions[1] == 4 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerTwo = array4[arrayReference]
+        }
+        else if shuffledQuestions[1] == 5 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerTwo = array5[arrayReference]
+        }
+        else if shuffledQuestions[1] == 6 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerTwo = array6[arrayReference]
+        }
+
+        if shuffledQuestions[2] == 1 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerThree = array1[arrayReference]
+        }
+        else if shuffledQuestions[2] == 2 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerThree = array2[arrayReference]
+        }
+        else if shuffledQuestions[2] == 3 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerThree = array3[arrayReference]
+        }
+        else if shuffledQuestions[2] == 4 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerThree = array4[arrayReference]
+        }
+        else if shuffledQuestions[2] == 5 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerThree = array5[arrayReference]
+        }
+        else if shuffledQuestions[2] == 6 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerThree = array6[arrayReference]
+        }
+
+        if shuffledQuestions[3] == 1 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerFour = array1[arrayReference]
+        }
+        else if shuffledQuestions[3] == 2 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerFour = array2[arrayReference]
+        }
+        else if shuffledQuestions[3] == 3 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerFour = array3[arrayReference]
+        }
+        else if shuffledQuestions[3] == 4 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerFour = array4[arrayReference]
+        }
+        else if shuffledQuestions[3] == 5 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerFour = array5[arrayReference]
+        }
+        else if shuffledQuestions[3] == 6 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerFour = array6[arrayReference]
+        }
+
+        if shuffledQuestions[4] == 1 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerFive = array1[arrayReference]
+        }
+        else if shuffledQuestions[4] == 2 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerFive = array2[arrayReference]
+        }
+        else if shuffledQuestions[4] == 3 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerFive = array3[arrayReference]
+        }
+        else if shuffledQuestions[4] == 4 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerFive = array4[arrayReference]
+        }
+        else if shuffledQuestions[4] == 5 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerFive = array5[arrayReference]
+        }
+        else if shuffledQuestions[4] == 6 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerFive = array6[arrayReference]
+        }
+
+        if shuffledQuestions[5] == 1 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerSix = array1[arrayReference]
+        }
+        else if shuffledQuestions[5] == 2 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerSix = array2[arrayReference]
+        }
+        else if shuffledQuestions[5] == 3 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerSix = array3[arrayReference]
+        }
+        else if shuffledQuestions[5] == 4 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerSix = array4[arrayReference]
+        }
+        else if shuffledQuestions[5] == 5 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerSix = array5[arrayReference]
+        }
+        else if shuffledQuestions[5] == 6 {
+            arrayReference = 1 - Int(arc4random_uniform(6))
+            answerSix = array6[arrayReference]
+        }
+
+    
+
+//        let answerOne = shuffledAnswers[0]
+//        let answerTwo = shuffledAnswers[1]
+//        let answerThree = shuffledAnswers[2]
+//        let answerFour = shuffledAnswers[3]
+//        let answerFive = shuffledAnswers[4]
+//        let answerSix = shuffledAnswers[5]
         
         print (questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, answerOne, answerTwo, answerThree, answerFour, answerFive, answerSix)
         
