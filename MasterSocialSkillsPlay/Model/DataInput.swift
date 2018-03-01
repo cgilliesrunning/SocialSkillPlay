@@ -246,152 +246,152 @@ let hideSeekAnswerDictionary = [    10 : "I love hide and seek, let’s play",
         let questionSix = shuffledQuestions[5]
     
         if shuffledQuestions[0] == 1 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerOne = array1[arrayReference]
         }
         else if shuffledQuestions[0] == 2 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerOne = array2[arrayReference]
         }
         else if shuffledQuestions[0] == 3 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerOne = array3[arrayReference]
         }
         else if shuffledQuestions[0] == 4 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerOne = array4[arrayReference]
         }
         else if shuffledQuestions[0] == 5 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerOne = array5[arrayReference]
         }
         else if shuffledQuestions[0] == 6 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerOne = array6[arrayReference]
         }
         
         if shuffledQuestions[1] == 1 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerTwo = array1[arrayReference]
         }
         else if shuffledQuestions[1] == 2 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerTwo = array2[arrayReference]
         }
         else if shuffledQuestions[1] == 3 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerTwo = array3[arrayReference]
         }
         else if shuffledQuestions[1] == 4 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerTwo = array4[arrayReference]
         }
         else if shuffledQuestions[1] == 5 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerTwo = array5[arrayReference]
         }
         else if shuffledQuestions[1] == 6 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerTwo = array6[arrayReference]
         }
 
         if shuffledQuestions[2] == 1 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerThree = array1[arrayReference]
         }
         else if shuffledQuestions[2] == 2 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerThree = array2[arrayReference]
         }
         else if shuffledQuestions[2] == 3 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerThree = array3[arrayReference]
         }
         else if shuffledQuestions[2] == 4 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerThree = array4[arrayReference]
         }
         else if shuffledQuestions[2] == 5 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerThree = array5[arrayReference]
         }
         else if shuffledQuestions[2] == 6 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerThree = array6[arrayReference]
         }
 
         if shuffledQuestions[3] == 1 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerFour = array1[arrayReference]
         }
         else if shuffledQuestions[3] == 2 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerFour = array2[arrayReference]
         }
         else if shuffledQuestions[3] == 3 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerFour = array3[arrayReference]
         }
         else if shuffledQuestions[3] == 4 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerFour = array4[arrayReference]
         }
         else if shuffledQuestions[3] == 5 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerFour = array5[arrayReference]
         }
         else if shuffledQuestions[3] == 6 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerFour = array6[arrayReference]
         }
 
         if shuffledQuestions[4] == 1 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerFive = array1[arrayReference]
         }
         else if shuffledQuestions[4] == 2 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerFive = array2[arrayReference]
         }
         else if shuffledQuestions[4] == 3 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerFive = array3[arrayReference]
         }
         else if shuffledQuestions[4] == 4 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerFive = array4[arrayReference]
         }
         else if shuffledQuestions[4] == 5 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerFive = array5[arrayReference]
         }
         else if shuffledQuestions[4] == 6 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerFive = array6[arrayReference]
         }
 
         if shuffledQuestions[5] == 1 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerSix = array1[arrayReference]
         }
         else if shuffledQuestions[5] == 2 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerSix = array2[arrayReference]
         }
         else if shuffledQuestions[5] == 3 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerSix = array3[arrayReference]
         }
         else if shuffledQuestions[5] == 4 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerSix = array4[arrayReference]
         }
         else if shuffledQuestions[5] == 5 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerSix = array5[arrayReference]
         }
         else if shuffledQuestions[5] == 6 {
-            arrayReference = 1 - Int(arc4random_uniform(6))
+            arrayReference = Int(arc4random_uniform(4))
             answerSix = array6[arrayReference]
         }
 

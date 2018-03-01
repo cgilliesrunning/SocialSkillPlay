@@ -10,7 +10,8 @@ import UIKit
 
 class ModeSelectionScreen: UIViewController {
     
-    var bbbbbb = MakeMusicClass.init()
+//    var bbbbbb = MakeMusicClass()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,9 +63,13 @@ class ModeSelectionScreen: UIViewController {
             let destinationVC = segue.destination as! primaryLearningScreen
             destinationVC.modeSelection = learningMode
             destinationVC.sceneSelection = sceneSelection
-            bbbbbb.stopNoise()
+            print ("ccccccccccccccccc")
+            MakeMusicClass.shared.stop()
         }
     }
     @IBOutlet weak var ModeSelectionScreenSceneImage: UIImageView!
     
+    @IBAction func stopMusic(_ sender: Any) {
+        MakeMusicClass.shared.stop()
+    }
 }

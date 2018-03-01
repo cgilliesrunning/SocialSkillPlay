@@ -27,50 +27,60 @@ class primaryLearningScreen: UIViewController {
         super.viewDidLoad()
         modeSelected.text = modeSelection
         sceneSelected.text = sceneSelection
+        interateThoughQuestions()
     }
     
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
-//    func makeNoise(soundFileName: String) { //play the selected media play
-//        print ("the  sound file name is : " + soundFileName)
-//        let soundURL = Bundle.main.url(forResource: soundFileName, withExtension: "mp3")
-//        do {
-//            try audioPlayer = AVAudioPlayer(contentsOf: soundURL!)
-//            audioPlayer.play()
-//        }
-//        catch {
-//            print (error)
-//        }
-//    }
+    func interateThoughQuestions () {
+        
+        if count == 0 && questionState == true {
+            print ("you are up to question number: \(count) = \(finalArray.list[count].questionNumber)")
+            let soundFileNameInput = sceneSelection+"Question"+String(finalArray.list[count].questionNumber)
+            MakeMusicClass.shared.setup(Selection: soundFileNameInput)
+            MakeMusicClass.shared.play()
+            displayText.text = finalArray.list[count].questionText
+            questionState = !questionState
+        }
+        
+        else if count < 6 {
+        print ("you are up to question number: \(count) = \(finalArray.list[count].questionNumber)")
+        let soundFileNameInput = sceneSelection+"Question"+String(finalArray.list[count].questionNumber)
+        MakeMusicClass.shared.setup(Selection: soundFileNameInput)
+        MakeMusicClass.shared.play()
+        displayText.text = finalArray.list[count].questionText
+        questionState = !questionState
+        }
+    }
+                        
+    func interateThoughAnswers () {
+            if count  < 6 && questionState == false {
+                print ("you are up to answer number: \(count) = \(finalArray.list[count].answerNumber)")
+                let soundFileNameInput = sceneSelection+"Answer"+String(finalArray.list[count].answerNumber)
+                MakeMusicClass.shared.setup(Selection: soundFileNameInput)
+                MakeMusicClass.shared.play()
+                displayText.text = finalArray.list[count].answerText
+                count += 1
+                questionState = !questionState
+                print ("Count: \(count)")
+                if count == 6 {
+                    performSegue(withIdentifier: "unwindSequeToHome", sender: self)
+                    }
+            }
+    }
     
     @IBAction func nextquestion(_ sender: Any) {
+        if questionState == true {
+            interateThoughQuestions()
+        }
+        else if questionState == false {
+            interateThoughAnswers()
+        }
         
-                if count < 6 {
-        
-                    if questionState == true {
-                        print ("you are up to question number: \(count) = \(finalArray.list[count].questionNumber)")
-                        let soundFileNameInput = sceneSelection+"Question"+String(finalArray.list[count].questionNumber)
-                        bbbbb.makeNoise(Selection: soundFileNameInput)
-                        displayText.text = finalArray.list[count].questionText
-                        questionState = !questionState
-                    }
-                    else if questionState == false {
-                        print ("you are up to answer number: \(count) = \(finalArray.list[count].answerNumber)")
-                        let soundFileNameInput = sceneSelection+"Answer"+String(finalArray.list[count].answerNumber)
-                        bbbbb.makeNoise(Selection: soundFileNameInput)
-                        displayText.text = finalArray.list[count].answerText
-                        count += 1
-                        questionState = !questionState
-                        }
-                    }
-                else if count == 6 {
-                    viewDidLoad()
-                }
     }
 }
+
 

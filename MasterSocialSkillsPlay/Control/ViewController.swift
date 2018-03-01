@@ -22,7 +22,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         count = 0
-        aaaaaa.makeNoise(Selection: "MenuAudio")
+        MakeMusicClass.shared.setup(Selection: "MenuAudio")
+        MakeMusicClass.shared.play()
     }
 
 
