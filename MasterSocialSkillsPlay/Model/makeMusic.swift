@@ -10,26 +10,18 @@ import Foundation
 import AVFoundation
 
 
+protocol PlayerDelegate : class {
+    func soundFinished(_ sender: Any)
+}
+
 class MakeMusicClass : NSObject, AVAudioPlayerDelegate {
     
 
     static let shared = MakeMusicClass()
     var audioPlayer = AVAudioPlayer()
+    weak var delegate : PlayerDelegate?
 
     override init() { }
-    
-//    func makeNoise (Selection: String) { //play the selected media play
-//        let soundURL = Bundle.main.url(forResource: Selection, withExtension: "mp3")
-//            do {
-//                try audioPlayer = AVAudioPlayer(contentsOf: soundURL!)
-//                audioPlayer.play()
-//                print (audioPlayer)
-//
-//                }
-//        catch {
-//            print (error)
-//            }
-//        }
     
     func setup(Selection: String) {
         do {
@@ -57,6 +49,9 @@ class MakeMusicClass : NSObject, AVAudioPlayerDelegate {
         audioPlayer.prepareToPlay()
     }
     
+    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) { // *
+        self.delegate?.soundFinished(self)
+    }
 
 }
 

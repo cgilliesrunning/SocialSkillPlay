@@ -60,10 +60,10 @@ class ModeSelectionScreen: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "MoveToLearningMode" {
-            let destinationVC = segue.destination as! primaryLearningScreen
-            destinationVC.modeSelection = learningMode
-            destinationVC.sceneSelection = sceneSelection
-            print ("ccccccccccccccccc")
+//            let destinationVC = segue.destination as! primaryLearningScreen
+////            destinationVC.modeSelection = learningMode
+////            destinationVC.sceneSelection = sceneSelection
+//            print ("ccccccccccccccccc")
             MakeMusicClass.shared.stop()
         }
     }

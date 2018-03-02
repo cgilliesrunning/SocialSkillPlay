@@ -171,15 +171,6 @@
                                     <action selector="modeSelectionButton:" destination="6IU-l3-HLD" eventType="touchUpInside" id="3IZ-75-J5d"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnS-a7-zJn">
-                                <rect key="frame" x="92" y="542" width="192" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="Stop Music"/>
-                                <connections>
-                                    <action selector="stopMusic:" destination="6IU-l3-HLD" eventType="touchUpInside" id="DSN-ma-3wp"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="4Rq-0o-VUa"/>
@@ -210,7 +201,7 @@
                                     <color key="titleColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="usY-s7-jyf" kind="unwind" unwindAction="unwindSequeToHomeWithSeque:" id="P8v-Zq-mVb"/>
+                                    <segue destination="usY-s7-jyf" kind="unwind" identifier="unwindSequeToHome" unwindAction="unwindSequeToHomeWithSeque:" id="P8v-Zq-mVb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mode Selected" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aln-Dh-MIk">
@@ -220,13 +211,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIk-14-wD2">
-                                <rect key="frame" x="65" y="591" width="244" height="60"/>
+                            <button opaque="NO" tag="1" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIk-14-wD2">
+                                <rect key="frame" x="81" y="470" width="131" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="Next Question"/>
+                                <state key="normal" title="Next Question" image="btn-correct-on"/>
                                 <connections>
-                                    <action selector="nextquestion:" destination="wJw-eW-qeh" eventType="touchUpInside" id="1FQ-26-6CR"/>
+                                    <action selector="nextquestion:" destination="wJw-eW-qeh" eventType="touchUpInside" id="Dam-ce-9Kd"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scene Selected" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sO-a6-4dU">
@@ -243,20 +233,30 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" tag="2" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaP-Mn-lTI">
+                                <rect key="frame" x="80" y="560" width="132" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="btn-wrong-on"/>
+                                <connections>
+                                    <action selector="nextquestion:" destination="wJw-eW-qeh" eventType="touchUpInside" id="QQ0-7D-6OD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="kBT-8r-9Ug"/>
                     </view>
                     <connections>
                         <outlet property="displayText" destination="OEg-Sj-cJd" id="XWu-6h-wl8"/>
+                        <outlet property="greenButton" destination="JIk-14-wD2" id="CtL-4n-zII"/>
                         <outlet property="modeSelected" destination="Aln-Dh-MIk" id="uRz-Zp-yNe"/>
+                        <outlet property="redButton" destination="gaP-Mn-lTI" id="CnC-W6-u6e"/>
                         <outlet property="sceneSelected" destination="3sO-a6-4dU" id="5K8-6E-rLq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="05Y-Ld-BFd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="usY-s7-jyf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1212" y="216"/>
+            <point key="canvasLocation" x="1212" y="215.44227886056973"/>
         </scene>
         <!--Info Screen-->
         <scene sceneID="hen-vp-YSn">
@@ -330,6 +330,8 @@
     </scenes>
     <resources>
         <image name="HomeScreen" width="375" height="667"/>
+        <image name="btn-correct-on" width="144" height="60"/>
+        <image name="btn-wrong-on" width="144" height="59"/>
         <image name="menu-hideseek" width="184" height="200"/>
         <image name="menu-painting" width="189" height="213"/>
         <image name="menu-playdoh" width="200" height="209"/>
